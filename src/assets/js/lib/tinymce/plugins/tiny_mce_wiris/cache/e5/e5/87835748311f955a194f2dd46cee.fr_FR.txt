@@ -1,0 +1,1 @@
+{"result":{"text":"incrément égal à 20 au carré moins 4 astérisque de multiplication ouvrir la parenthèse moins 300 fermer la parenthèse"},"status":"ok"}

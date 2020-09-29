@@ -1,0 +1,1 @@
+{"result":{"text":"h indice 6 égal à q au carré croix de multiplication h indice 4\nq au carré égal à h indice 6 sur h indice 4\nq au carré égal à"},"status":"ok"}

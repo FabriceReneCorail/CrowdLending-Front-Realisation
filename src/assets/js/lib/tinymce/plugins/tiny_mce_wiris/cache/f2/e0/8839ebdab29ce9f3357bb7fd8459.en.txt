@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style limit as x rightwards arrow plus infinity of f left parenthesis x right parenthesis equals negative 1 end style"},"status":"ok"}

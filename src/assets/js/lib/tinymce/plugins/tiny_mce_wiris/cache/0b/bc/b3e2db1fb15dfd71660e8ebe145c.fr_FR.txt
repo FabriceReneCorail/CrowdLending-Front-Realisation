@@ -1,0 +1,1 @@
+{"result":{"text":"S o i t espace espace espace l apostrophe a p p l i c a t i o n espace espace deux points espace"},"status":"ok"}

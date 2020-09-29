@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace d r o i t e ouvrir la parenthèse B D fermer la parenthèse fin de style"},"status":"ok"}

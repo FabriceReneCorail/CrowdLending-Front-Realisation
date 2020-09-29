@@ -1,0 +1,1 @@
+{"result":{"text":"increment equals 20 squared minus 4 asterisk times open parentheses negative 300 close parentheses equals 1600"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px numérateur de la fraction 1 moins 7 ln ouvrir la parenthèse 2 fermer la parenthèse au-dessus du dénominateur 2 fin de la fraction fin de style"},"status":"ok"}

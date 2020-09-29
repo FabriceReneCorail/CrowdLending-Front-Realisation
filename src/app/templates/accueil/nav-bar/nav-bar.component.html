@@ -1,0 +1,85 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./assets/img/LendMeLogo.png" alt="Logo" width="64" height="64"> <!-- Logo de l'application Lend Me -->
+      LEND ME
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+
+        <!-- Rubrique page d'accueil : HOME -->
+
+
+        <!-- Rubrique : A propos -->
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/lmbref" routerLinkActive="active">Lend Me en Bref</a>
+        </li>
+
+        <!-- Rubrique : Login -->
+        <li class="nav-item">
+          <a  class="nav-link" routerLink="/connection" routerLinkActive="active">Connexion</a>
+        </li>
+
+        <!-- Rubrique : FAQ pour répondre aux interrogations des utilisateurs -->
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/form-contact" routerLinkActive="active"> Nous contacter</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/faq" routerLinkActive="active">FAQ</a>
+        </li>
+
+        <!-- Barre de RECHERCHE pour recherche par catégorie de projets -->
+
+      <!--  <li style="margin-left:2%"> -->
+       <!--<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Rechercher</button>-->
+       <!--</li>-->
+
+        <!-- Intégration de l'internationnalisation à la barre de navigation -->
+        <!--  <li style="margin-left:2%">
+        <img src="./assets/img/fr.png" alt="Drapeau Français" width="45" height="34" (click)="switchLang('fr')" >
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/en.png" alt="Drapeau Anglais" width="45" height="34"  (click)="switchLang('en')">
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/de.png" alt="Drapeau Allemand" width="45" height="34"  (click)="switchLang('de')">
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/es.png" alt="Drapeau Espagnol" width="45" height="34"  (click)="switchLang('es')">
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/it.png" alt="Drapeau Italien" width="45" height="34"  (click)="switchLang('it')">
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/ru.png" alt="Drapeau Russe" width="45" height="34"  (click)="switchLang('ru')">
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/ja.png" alt="Drapeau Japonais" width="45" height="34"  (click)="switchLang('ja')">
+        </li>
+        <li style="margin-left:2%">
+          <img src="./assets/img/zh-Hant.png" alt="Drapeau Chinois" width="45" height="34"  (click)="switchLang('zh-Hant')">
+        </li> -->
+       <!-- <li class="nav-item" style="margin-left:2%">
+          <span class="form-inline">
+            <select    class="form-control"    #selectedLang        (change)="switchLang(selectedLang.value)">
+              <option *ngFor="let language of translate.getLangs()"  [value]="language"     [selected]="language === translate.currentLang">
+                {{ language }}
+              </option>
+            </select>
+          </span>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+

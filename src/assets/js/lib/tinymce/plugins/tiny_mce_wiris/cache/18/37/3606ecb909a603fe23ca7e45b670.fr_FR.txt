@@ -1,0 +1,1 @@
+{"result":{"text":"ouvrir la parenthèse taille 20px U indice taille 20px n fermer la parenthèse indice taille 20px n taille 20px supérieur ou égal à taille 20px 0 taille 20px espace fin d'indice taille 20px espace taille 20px espace taille 20px c taille 20px o taille 20px n taille 20px v taille 20px e taille 20px r taille 20px g taille 20px e"},"status":"ok"}

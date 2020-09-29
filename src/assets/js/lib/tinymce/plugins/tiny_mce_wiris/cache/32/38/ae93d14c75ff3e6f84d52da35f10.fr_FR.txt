@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px 4 e puissance moins i simple pi sur 4 fin de l'exposant fin de style"},"status":"ok"}

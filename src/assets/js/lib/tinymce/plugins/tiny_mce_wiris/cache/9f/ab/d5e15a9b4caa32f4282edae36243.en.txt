@@ -1,0 +1,1 @@
+{"result":{"text":"limit as x rightwards arrow plus infinity of h left parenthesis x right parenthesis equals negative 3"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace ouvrir la parenthèse U indice n fermer la parenthèse espace espace p r e n d espace u n espace n o m b r e espace f i n i espace d e espace v a l e u r s espace espace a l o r s espace deux points fin de style"},"status":"ok"}

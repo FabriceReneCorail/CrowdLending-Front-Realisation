@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px z au carré plus ouvrir la parenthèse 2 cos ouvrir la parenthèse alpha fermer la parenthèse fermer la parenthèse z plus 1 égal à 0 virgule espace o u espace alpha espace e s t espace u n espace p a r a m é t r e espace r é e l. espace A l o r s deux points fin de style"},"status":"ok"}

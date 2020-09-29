@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px moins 3 crochet ouvert cos ouvrir la parenthèse simple pi sur 4 fermer la parenthèse plus i sin ouvrir la parenthèse simple pi sur 4 fermer la parenthèse crochet fermé fin de style"},"status":"ok"}

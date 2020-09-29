@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px S i espace l a espace s u i t e espace U indice n espace espace d i v e r g e espace a l o r s espace l a espace s u i t e espace V indice n espace c o n v e r g e fin de style"},"status":"ok"}

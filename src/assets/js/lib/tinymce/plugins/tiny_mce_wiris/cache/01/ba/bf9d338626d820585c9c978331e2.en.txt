@@ -1,0 +1,1 @@
+{"result":{"text":"x subscript 1 equals fraction numerator negative 20 minus square root of 1600 over denominator 2 end fraction equals negative 10\nx subscript 2 equals fraction numerator negative 20 plus square root of 1600 over denominator 2 end fraction equals 30"},"status":"ok"}

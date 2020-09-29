@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace h espace e s t espace u n e espace f o n c t i o n espace d é f i n i e espace s u r espace espace crochet gauche 0 virgule plus infini crochet gauche espace t e l l e espace q u e espace fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px limite avec n flèche vers la droite plus infini de U indice n égal à 2 fin de style"},"status":"ok"}

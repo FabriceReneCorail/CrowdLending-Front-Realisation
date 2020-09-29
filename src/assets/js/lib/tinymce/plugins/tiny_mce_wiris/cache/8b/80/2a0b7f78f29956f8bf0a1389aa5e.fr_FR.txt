@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px z égal à 1 moins i plus 5 e puissance i theta fin de l'exposant virgule espace theta appartient à simple nombres réels fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px ouvrir la parenthèse x moins 1 fermer la parenthèse au carré plus ouvrir la parenthèse y plus 1 fermer la parenthèse au carré égal à racine carrée de 5 fin de style"},"status":"ok"}

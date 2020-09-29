@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px p o u r espace t o u t espace r é e l espace x virgule espace f puissance apostrophe parenthèse gauche x parenthèse droite égal à 2 moins numérateur de la fraction x au-dessus du dénominateur début de racine carrée de x au carré plus 1 fin de racine fin de la fraction fin de style"},"status":"ok"}

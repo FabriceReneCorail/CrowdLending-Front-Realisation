@@ -1,0 +1,1 @@
+{"result":{"text":"X D F N B K X F D N N espace intégrale indice 1 exposant 3 2 X d X"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px S i espace u indice 0 égal à 3 sur 2 espace a l o r s espace ouvrir la parenthèse U indice n fermer la parenthèse espace espace e s t espace espace b o r n é e. fin de style"},"status":"ok"}

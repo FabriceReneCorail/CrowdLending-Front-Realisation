@@ -1,0 +1,1 @@
+{"result":{"text":"R ouvrir la parenthèse x fermer la parenthèse égal à 34 x"},"status":"ok"}

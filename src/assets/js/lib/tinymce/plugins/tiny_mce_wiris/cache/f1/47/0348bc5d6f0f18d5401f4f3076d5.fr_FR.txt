@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace limite avec x flèche vers la droite plus infini de f parenthèse gauche x parenthèse droite égal à a virgule espace l a espace c o u r b e espace r e p r é s e n t a t i v e espace d e espace f. fin de style"},"status":"ok"}

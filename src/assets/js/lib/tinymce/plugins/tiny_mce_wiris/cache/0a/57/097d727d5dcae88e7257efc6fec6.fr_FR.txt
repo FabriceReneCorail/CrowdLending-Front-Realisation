@@ -1,0 +1,1 @@
+{"result":{"text":"1 divisé par\nf ouvrir la parenthèse x fermer la parenthèse égal à 4 x au cube moins 5 x au carré plus x moins 1\nf apostrophe ouvrir la parenthèse x fermer la parenthèse égal à 12 x au carré moins 10 x plus 1"},"status":"ok"}

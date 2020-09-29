@@ -1,0 +1,54 @@
+<ngx-ui-loader></ngx-ui-loader>
+<app-nav-bar-accueil></app-nav-bar-accueil>
+<body>
+
+    <div class="wrap">
+        <div class="loading outer">
+          <div class="loading inner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Jumbotron Header -->
+      <div class="styleJumbotron">
+      <div class="jumbotron my-4">
+        <h1 class="display-3">{{'Bienvenue sur Lend Me' }}</h1>
+        <p class="lead">Donner du sens à votre épargne. Aider quelqu'un a réaliser son rêve.</p>
+        <a *ngIf="infoUser"  class="btn btn-primary btn-lg" [routerLink]="['/Identification']" routerLinkActive="active">Je m'inscris</a>
+      </div>
+      </div>
+      <!-- Page Features -->
+      <div class="jumbotron my-4">
+
+        <!--http://placehold.it/500x325-->
+        <h1>Les projets du moment</h1>
+
+
+          <div class="imageProject">
+            <img class="photo1"
+              src="https://d3v4jsc54141g1.cloudfront.net/assets/home2020/engagements/education-7b54d7dff0da7a6c20e0f7a59ecfadc3a1fbed99528c2a2dde0dd073cb0681a3.jpg"
+              alt="education">
+            <img class="photo2"
+              src="https://d3v4jsc54141g1.cloudfront.net/assets/home2020/engagements/bio-7f8ad01d05a6333595a23a408c03b6d26b1b5653aeb4b4e0236d501e94d3f9ef.jpg"
+              alt="alimentation responsable">
+            <img class="photo3"
+              src="https://d3v4jsc54141g1.cloudfront.net/assets/home2020/engagements/changer_de_vie-9c76eb956d6099e3dce9b2a5e11b5176b59a9fe57d79fa846204d27f5346e411.jpg"
+              alt="Vie">
+
+          </div>
+
+
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+  <app-footer-accueil></app-footer-accueil>
+
+
+  </body>

@@ -1,0 +1,1 @@
+{"result":{"text":"S égal à accolade ouverte 2 point-virgule numérateur de la fraction moins i racine carrée de 8 au-dessus du dénominateur 2 fin de la fraction point-virgule numérateur de la fraction i racine carrée de 8 au-dessus du dénominateur 2 fin de la fraction accolade fermée"},"status":"ok"}

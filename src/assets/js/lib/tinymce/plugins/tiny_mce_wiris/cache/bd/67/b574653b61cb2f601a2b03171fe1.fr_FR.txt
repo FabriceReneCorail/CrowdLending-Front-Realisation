@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L e espace n o m b r e espace c o m p l e x e espace ouvrir la parenthèse racine carrée de 3 plus i fermer la parenthèse puissance n espace e s t espace u n espace i m a g i n a i r e espace p u r espace s i espace e t espace s e u l e m e n t espace s i espace deux points fin de style"},"status":"ok"}

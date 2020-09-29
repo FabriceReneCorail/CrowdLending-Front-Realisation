@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style fraction numerator 1 minus 7 ln open parentheses 2 close parentheses over denominator 2 end fraction end style"},"status":"ok"}

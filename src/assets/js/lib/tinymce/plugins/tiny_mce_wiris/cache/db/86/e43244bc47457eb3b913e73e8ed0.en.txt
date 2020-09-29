@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style z subscript 1. z subscript 3 equals 4 e to the power of negative i straight pi over 6 end exponent end style"},"status":"ok"}

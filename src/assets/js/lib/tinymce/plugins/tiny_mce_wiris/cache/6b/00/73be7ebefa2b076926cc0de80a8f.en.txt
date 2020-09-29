@@ -1,0 +1,1 @@
+{"result":{"text":"size 20px lim with size 20px n size 20px rightwards arrow size 20px plus size 20px infinity below size 20px U subscript size 20px n size 20px less or equal than size 20px 3"},"status":"ok"}

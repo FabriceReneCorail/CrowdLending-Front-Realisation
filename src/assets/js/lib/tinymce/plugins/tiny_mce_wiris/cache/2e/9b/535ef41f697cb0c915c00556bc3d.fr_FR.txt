@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px y égal à moins x plus 1 fin de style"},"status":"ok"}

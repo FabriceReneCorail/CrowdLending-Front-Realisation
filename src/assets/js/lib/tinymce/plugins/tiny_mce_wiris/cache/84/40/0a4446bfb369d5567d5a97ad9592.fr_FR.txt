@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px 2 e puissance i numérateur de la fraction 7 simple pi au-dessus du dénominateur 8 fin de la fraction fin de l'exposant fin de style"},"status":"ok"}

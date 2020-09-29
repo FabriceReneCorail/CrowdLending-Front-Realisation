@@ -1,0 +1,1 @@
+{"result":{"text":"L a espace p a r t i e espace r é e l l e espace d e espace z indice 1 espace e t espace z indice 2 espace v a u t espace moins 2 racine carrée de 3."},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"l j k n f d j k n x d k f n espace intégrale indice 1 exposant 2 x au carré plus 2 x d x"},"status":"ok"}

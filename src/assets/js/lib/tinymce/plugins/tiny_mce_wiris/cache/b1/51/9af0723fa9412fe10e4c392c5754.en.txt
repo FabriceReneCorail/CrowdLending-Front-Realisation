@@ -1,0 +1,1 @@
+{"result":{"text":"limit as x rightwards arrow plus infinity of g left parenthesis x right parenthesis equals plus infinity"},"status":"ok"}

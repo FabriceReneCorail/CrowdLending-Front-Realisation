@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px omega majuscule espace e s t espace l e espace p o i n t espace d apostrophe a f f i x e espace 1 moins i. fin de style"},"status":"ok"}

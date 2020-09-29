@@ -1,0 +1,1 @@
+{"result":{"text":"v h d v c v h z d espace espace début de racine carrée de 3 sur 4 fin de racine"},"status":"ok"}

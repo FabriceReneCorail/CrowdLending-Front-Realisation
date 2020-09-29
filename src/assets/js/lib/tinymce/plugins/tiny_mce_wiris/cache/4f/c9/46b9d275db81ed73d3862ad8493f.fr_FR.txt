@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace limite avec n flèche vers la droite plus infini de V indice n égal à plus infini espace espace e t espace espace espace limite avec n flèche vers la droite plus infini de U indice n égal à moins infini espace espace A l o r s espace deux points fin de style"},"status":"ok"}

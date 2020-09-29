@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style R e open parentheses z subscript 1 close parentheses equals R e open parentheses z subscript 2 close parentheses end style"},"status":"ok"}

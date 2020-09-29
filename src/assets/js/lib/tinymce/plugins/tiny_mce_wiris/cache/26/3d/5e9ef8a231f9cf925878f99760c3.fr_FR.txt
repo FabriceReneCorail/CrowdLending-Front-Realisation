@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px calligraphique f espace e s t espace d é c r o i s s a n t e espace s u r espace crochet ouvert 0 virgule 1 crochet fermé. fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style limit as n rightwards arrow plus infinity of open parentheses U subscript n plus V subscript n close parentheses equals 0 end style"},"status":"ok"}

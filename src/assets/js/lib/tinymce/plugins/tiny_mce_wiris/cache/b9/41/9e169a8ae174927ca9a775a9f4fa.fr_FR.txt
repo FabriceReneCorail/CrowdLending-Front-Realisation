@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px ouvrir la parenthèse U indice n fermer la parenthèse espace espace c o n v e r g e espace v e r s espace 0 espace espace espace e t espace espace espace ouvrir la parenthèse V indice n fermer la parenthèse espace espace c o n v e r g e espace v e r s espace 0. fin de style"},"status":"ok"}

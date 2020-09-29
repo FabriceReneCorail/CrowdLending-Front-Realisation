@@ -1,0 +1,1 @@
+{"result":{"text":"2 divided by\nf open parentheses x close parentheses equals 5 x cubed minus 1 over x plus 3 square root of x\nf apostrophe left parenthesis x right parenthesis equals 15 x squared minus 1 over x squared plus fraction numerator 3 over denominator 2 square root of x end fraction"},"status":"ok"}

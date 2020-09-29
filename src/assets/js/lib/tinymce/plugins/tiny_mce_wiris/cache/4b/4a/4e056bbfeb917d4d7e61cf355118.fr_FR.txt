@@ -1,0 +1,1 @@
+{"result":{"text":"t indice 5 égal à t indice 4 plus ouvrir la parenthèse 5 moins 4 fermer la parenthèse croix de multiplication r\n20 égal à 8 moins 1 croix de multiplication r\n20 moins 8 égal à r\nr égal à 12\n"},"status":"ok"}

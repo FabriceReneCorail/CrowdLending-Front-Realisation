@@ -1,0 +1,235 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+<body>
+  <div class="wrap">
+    <div class="loading outer">
+      <div class="loading inner"></div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <app-nav-bar-accueil></app-nav-bar-accueil>
+
+  <!-- Page Content -->
+  <div class="container">
+    <!-- Page Features -->
+    <div class="row text-center">
+      <div class="container-fluid">
+        <div class="row">
+          <ngb-tabset [destroyOnHide]="false">
+            <ngb-tab title="Fiche information de projet">
+              <ng-template ngbTabContent>
+                <div class="row" style="margin-top: 5%">
+                  <div class="col-lg-12">
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card border-left-primary">
+                        <div class="card-body">
+                          <img
+                            mat-card-image
+                            [src]="ObjetProjectTemplate.project.afficheProject"
+                            alt=""
+                            style="
+                              text-align: center;
+                              margin-left: 10%;
+                              width: 50%;
+                              height: 50%;
+                            "
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Nom projet : {{ ObjetProjectTemplate.project.nom }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Description :
+                            {{ ObjetProjectTemplate.project.description }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Porteur du projet :
+                            {{
+                              ObjetProjectTemplate.project._porte_project.nom
+                            }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            montant minimun de collecte :
+                            {{
+                              ObjetProjectTemplate.project.montant_minimun
+                            }}
+                            euros
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Date limite de collecte :
+                            {{
+                              ObjetProjectTemplate.project.date_limite_collecte
+                            }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Total des fonds collectés :
+                            {{ ObjetProjectTemplate.project.total_fonds }}&euro;
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Contre partie de project :
+                            {{
+                              ObjetProjectTemplate.project.contrePartieProject
+                            }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Categorie de project :
+                            {{
+                              ObjetProjectTemplate.project.categoryProject.nom
+                            }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <h3>
+                            Statut project :
+                            {{
+                              ObjetProjectTemplate.project._statut_project.nom
+                            }}
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </ngb-tab>
+
+            <ngb-tab *ngIf="arrayAdressReseauxSociauxProject.length > 0">
+              <ng-template ngbTabTitle>Contact</ng-template>
+
+              <ng-template ngbTabContent>
+                <div
+                  class="row"
+                  style="margin-top: 5%; margin-left: 5%"
+                  *ngFor="
+                    let objectAdresse of arrayAdressReseauxSociauxProject;
+                    let i = index
+                  "
+                >
+                  <div class="col-lg-12" style="margin-top: 5%">
+                    <div class="card mb-12 py-12 border-left-primary">
+                      <div class="card-body">
+                        <h3>
+                          {{ objectAdresse.valueMedia }} :
+                          {{ objectAdresse.linkProject }}
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </ngb-tab>
+
+            <ngb-tab *ngIf="listCommentsForProject.length > 0">
+              <ng-template ngbTabTitle>Les commentaires</ng-template>
+
+              <ng-template ngbTabContent>
+                <div class="comments" style="margin-top: 5%; margin-left: 5%">
+                  <div
+                    class="comment-wrap"
+                    *ngFor="
+                      let objectComment of listCommentsForProject;
+                      let i = index
+                    "
+                  >
+                    <div class="photo">
+                      <div class="avatar">
+                        <img
+                          class="img-profile rounded-circle"
+                          style="width: 50px"
+                          [src]="objectComment._user.photoUser"
+                        />
+                      </div>
+                    </div>
+                    <div class="comment-block">
+                      <p class="comment-text">
+                        {{ objectComment.bodyComment }}
+                      </p>
+                      <div class="bottom-comment">
+                        <div class="comment-date">
+                          {{ objectComment.dateCreated }}
+                        </div>
+                        <br />
+
+                        <span style="font-weight: bold"
+                          >{{ objectComment._user.nom }}.{{
+                            objectComment._user.prenom
+                          }}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </ng-template>
+            </ngb-tab>
+          </ngb-tabset>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <app-footer-accueil></app-footer-accueil>
+</body>

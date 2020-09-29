@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L e espace d i s c r i m i n a n t espace delta majuscule égal à 4 sin au carré ouvrir la parenthèse alpha fermer la parenthèse fin de style"},"status":"ok"}

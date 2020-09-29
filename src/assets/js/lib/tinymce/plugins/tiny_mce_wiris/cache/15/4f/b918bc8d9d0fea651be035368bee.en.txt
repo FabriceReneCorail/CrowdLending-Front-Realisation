@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style negative straight pi over 3 plus theta end style"},"status":"ok"}

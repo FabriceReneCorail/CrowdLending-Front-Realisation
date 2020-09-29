@@ -1,0 +1,1 @@
+{"result":{"text":"U indice 8 égal à U indice 0 croix de multiplication q puissance 8\nespace espace espace espace égal à 16 croix de multiplication ouvrir la parenthèse 1 demi fermer la parenthèse puissance 8\nespace espace espace espace espace égal à 1 sur 16\n\n"},"status":"ok"}

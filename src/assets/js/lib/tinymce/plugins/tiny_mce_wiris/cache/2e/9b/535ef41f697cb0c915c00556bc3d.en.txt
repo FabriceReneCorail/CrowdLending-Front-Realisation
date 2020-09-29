@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style y equals negative x plus 1 end style"},"status":"ok"}

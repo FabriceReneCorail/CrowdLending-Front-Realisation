@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px P o u r espace t o u t espace espace e n t i e r espace n supérieur ou égal à 1 virgule espace espace V indice n égal à 1 sur n plus 3 numérateur de la fraction n moins 1 au-dessus du dénominateur n factorielle fin de la fraction fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../.tmp/editor/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,qBAAqB,EAAE,MAAM,oBAAoB,CAAC;AAC3D,OAAO,EAAE,kBAAkB,EAAE,MAAM,iBAAiB,CAAC","sourcesContent":["export { FroalaEditorDirective } from './editor.directive';\r\nexport { FroalaEditorModule } from './editor.module';"]}

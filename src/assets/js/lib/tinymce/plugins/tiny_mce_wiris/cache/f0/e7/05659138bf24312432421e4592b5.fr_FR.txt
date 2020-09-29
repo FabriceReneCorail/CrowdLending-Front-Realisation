@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px C a espace d é p e n t espace l a espace s u i t e. O n espace n e espace p e u t espace p a s espace c o n f i r m e r. espace fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"T o u t e espace s u i t e espace ouvrir la parenthèse V indice n fermer la parenthèse espace à espace t e r m e s espace s t r i c t e m e n t espace p o s i t i f s espace e t espace d é c r o i s s a n t e espace c o n v e r g e espace\n\nv e r s espace 0 espace"},"status":"ok"}

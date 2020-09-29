@@ -1,0 +1,1 @@
+{"result":{"text":"V indice n plus 1 indice blanc fin d'indice moins V indice n égal à ouvrir la parenthèse 1 demi U indice n plus 1 indice blanc fin d'indice plus 2 fermer la parenthèse moins V indice n"},"status":"ok"}

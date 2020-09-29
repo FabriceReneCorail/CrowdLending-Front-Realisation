@@ -1,0 +1,1 @@
+{"result":{"text":"b n espace n d n inférieur à s d virgule espace n s d racine carrée de 3"},"status":"ok"}

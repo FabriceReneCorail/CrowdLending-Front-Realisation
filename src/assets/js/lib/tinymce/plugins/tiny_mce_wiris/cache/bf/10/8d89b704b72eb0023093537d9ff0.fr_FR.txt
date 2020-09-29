@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px d e u x espace s o l u t i o n s. fin de style"},"status":"ok"}

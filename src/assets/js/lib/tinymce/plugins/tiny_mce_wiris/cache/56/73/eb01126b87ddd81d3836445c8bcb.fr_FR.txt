@@ -1,0 +1,1 @@
+{"result":{"text":"A égal à parenthèse gauche x moins 3 parenthèse droite parenthèse gauche x plus 3 parenthèse droite moins 2 parenthèse gauche x moins 3 parenthèse droite espace espace espace espace double flèche bilatérale espace espace espace espace"},"status":"ok"}

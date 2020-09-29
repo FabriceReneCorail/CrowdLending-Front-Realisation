@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L e espace t r i a n g l e espace O B C espace e s t espace i s o c è l e espace e t espace r e g tan g l e espace e n espace B fin de style"},"status":"ok"}

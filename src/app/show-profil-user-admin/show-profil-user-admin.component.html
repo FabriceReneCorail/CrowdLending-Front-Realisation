@@ -1,0 +1,357 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+  
+      <!-- Sidebar -->
+      <app-side-bar-left-user-templates *ngIf="infosUser.typeCompte == 'user'"></app-side-bar-left-user-templates>
+
+      <app-side-bar-left-admin-templates *ngIf="infosUser.typeCompte == 'admin'"></app-side-bar-left-admin-templates>
+     
+      <!-- End of Sidebar -->
+  
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+  
+        <!-- Main Content -->
+        <div id="content">
+  
+          <!-- Topbar  start Nav -->
+
+          <app-nav-admin-templates *ngIf="infosUser.typeCompte == 'admin'"></app-nav-admin-templates>
+
+          <app-nav-user-templates *ngIf="infosUser.typeCompte == 'user'"></app-nav-user-templates>       
+
+          
+         
+          <!-- End of Topbar end Nav -->
+  
+          <!-- Begin Page Content -->
+          <div class="container-fluid">            
+            
+                         
+                           
+  
+            <!-- Page Heading -->
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+              <h1 class="h3 mb-0 text-gray-800">Fiche profil utilisateur</h1>
+             
+            </div>
+            
+            
+          
+            <div class="row">                      
+  
+              <!-- Content Column -->
+              <div class="col-lg-12 mb-12">
+
+                   <ngb-tabset [destroyOnHide]="false">
+
+                    <ngb-tab>
+                        <ng-template ngbTabTitle>Fiche personelle</ng-template>
+                        <ng-template ngbTabContent>
+  
+  
+                         <div class="col-lg-12"  style="margin-top:5%">
+  
+                              <div class="card mb-12 py-12 border-left-primary">
+  
+                                  <div class="card-body">                                 
+                                         
+                                      <img mat-card-image [src]="infosCompanyOwner.photoUser" alt="" style="text-align:center;margin-left:5%;width:25%;height :25%" > 
+  
+                                  </div>
+  
+                                </div>
+  
+                          </div> 
+  
+                          <div class="col-lg-12" style="margin-top:5%">
+  
+                              <div class="card mb-10 py-12 border-left-primary">
+  
+                                  <div class="card-body">                                 
+                                         
+                                          <h3>Nom  : {{infosCompanyOwner.nom}}.{{infosCompanyOwner.prenom}}</h3>                                       
+                                  </div>
+  
+                                </div>
+  
+                          </div> 
+  
+                          <div class="col-lg-10" style="margin-top:5%">
+  
+                              <div class="card mb-12 py-12 border-left-primary">
+  
+                                  <div class="card-body">                                 
+                                         
+                                          <h3>Date de naissance : {{infosCompanyOwner.date_naissance}}</h3>                                       
+                                  </div>
+  
+                                </div>
+  
+                          </div> 
+  
+                          <div class="col-lg-10" style="margin-top:5%">
+  
+                              <div class="card mb-12 py-12 border-left-primary">
+  
+                                  <div class="card-body">                                 
+                                         
+                                          <h3>Sex  : {{infosCompanyOwner.sex}}</h3>                                       
+                                  </div>
+  
+                                </div>
+  
+                          </div>                     
+                          
+                       
+                          
+                        </ng-template>
+                        
+                      </ngb-tab>
+                      
+                      <ngb-tab>
+                        <ng-template ngbTabTitle>SES PROJETS CREES</ng-template>
+                        <ng-template ngbTabContent>
+
+                          <div class="alert alert-warning alert-dismissible fade show" role="alert" *ngIf="listCreatedProjects.length==0" >
+                            <strong>Aucun  projet!</strong> n'est disponible.
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+
+                          <div class="row"  style="margin-top:10%">                      
+  
+                            <!-- Content Column -->
+                            <div class="col-lg-12 mb-12">
+              
+                              <div class="row text-center">
+                
+                                <div class="col-lg-4 col-md-6 mb-4"  *ngFor="let project of listCreatedProjects; let i = index ">
+                                  <div class="card h-100" [routerLink]="['/admin-projetcs-show' , project.token ]"  >
+                                    <img class="card-img-top" [src]="project.afficheProject" alt="" style="width :300px;height:200px;margin-left:20%;">
+                                    <div class="card-body">
+                                      <h4 class="card-title">{{project.nom}}</h4>                     
+                                      <h5 class="card-title">{{project._statut_project.nom}}</h5>
+                                      <h5 class="card-title"  *ngIf="project._statut_project.nom === 'Validé'">{{listtemplateCreatedProjects[i].nbrJours}}</h5>
+                                      <h5 class="card-title">{{listtemplateCreatedProjects[i].dateLimiteCollecteFormate}}</h5>
+                                      <h5 class="card-title">{{project.categoryProject.nom}}</h5>
+                                      <table  style="margin-left: 10%;">
+              
+                                        <tr>
+              
+                                          <td width="10%">                                
+              
+                                            <img class="card-img-top" src="./assets/img/heart-icon.png"  alt="" style="width :35px;height:35px;" >
+              
+                                            <span>{{project.total_hearts}}</span>
+              
+                                          </td>
+              
+                                          <td width="30%"  style="text-align: center;">                                
+              
+                                            <img class="card-img-top" src="./assets/img/like_ico.png"  alt="" style="width :35px;height:35px;" >
+              
+                                            <span>{{project.total_like}}</span>
+                                            
+                                          </td>
+              
+                                          <td width="20%">                                     
+              
+                                            <img class="card-img-top" src="./assets/img/dislike_ico.png"  alt="" style="width :35px;height:35px;" >
+              
+                                            <span>{{project.total_dislike}}</span>
+                                            
+                                          </td>
+              
+                                          <td width="20%">                                     
+              
+                                            <img class="card-img-top" src="./assets/img/eye_ico.png"  alt="" style="width :38px;height:35px;" >
+              
+                                            <span>{{project.total_vues}}</span>
+                                            
+                                          </td>
+              
+                                          <td width="20%">                                     
+              
+                                            <img class="card-img-top" src="./assets/img/picto-dons-300x300.png"  alt="" style="width :38px;height:35px;" >
+              
+                                            <span>{{project.total_fonds}} &euro;</span>
+                                            
+                                          </td>
+              
+                                        </tr>
+                                      </table>
+                                    </div>
+                                    <div class="card-footer">
+              
+                                      <a  class="btn btn-primary" [routerLink]="['/admin-projetcs-show' , project.token ]"     >Consulter</a>        
+                                          
+                                      
+                                    </div>
+              
+                                  </div>
+              
+                                </div>              
+                                
+                          
+                              </div>
+              
+                     
+                            </div>
+                          
+                           
+                        </div>
+
+
+                         </ng-template>
+                        
+                      </ngb-tab>
+
+                      <ngb-tab>
+                        <ng-template ngbTabTitle>SES PROJETS CONTRIBUES</ng-template>
+                        <ng-template ngbTabContent>
+
+                          <div class="alert alert-warning alert-dismissible fade show" role="alert" *ngIf="listCtribProjects.length==0" >
+                            <strong>Aucun  projet!</strong> n'est disponible.
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+
+                          <div class="row" style="margin-top:10%">                      
+  
+                            <!-- Content Column -->
+                            <div class="col-lg-12 mb-12">
+              
+                              <div class="row text-center">
+                
+                                <div class="col-lg-4 col-md-6 mb-4"  *ngFor="let projectBis of listCtribProjects; let i = index ">
+                                  <div class="card h-100" [routerLink]="['/admin-projetcs-show' , projectBis.token ]"  >
+                                    <img class="card-img-top" [src]="projectBis.afficheProject" alt="" style="width :300px;height:200px;margin-left:20%;">
+                                    <div class="card-body">
+                                      <h4 class="card-title">{{projectBis.nom}}</h4>                     
+                                      <h5 class="card-title">{{projectBis._statut_project.nom}}</h5>
+                                      <h5 class="card-title"  *ngIf="projectBis._statut_project.nom === 'Validé'">{{listtemplateCtribProjects[i].nbrJours}}</h5>
+                                      <h5 class="card-title">{{listtemplateCtribProjects[i].dateLimiteCollecteFormate}}</h5>
+                                      <h5 class="card-title">{{projectBis.categoryProject.nom}}</h5>
+                                      <table  style="margin-left: 10%;">
+              
+                                        <tr>
+              
+                                          <td width="10%">                                
+              
+                                            <img class="card-img-top" src="./assets/img/heart-icon.png"  alt="" style="width :35px;height:35px;" >
+              
+                                            <span>{{projectBis.total_hearts}}</span>
+              
+                                          </td>
+              
+                                          <td width="30%"  style="text-align: center;">                                
+              
+                                            <img class="card-img-top" src="./assets/img/like_ico.png"  alt="" style="width :35px;height:35px;" >
+              
+                                            <span>{{projectBis.total_like}}</span>
+                                            
+                                          </td>
+              
+                                          <td width="20%">                                     
+              
+                                            <img class="card-img-top" src="./assets/img/dislike_ico.png"  alt="" style="width :35px;height:35px;" >
+              
+                                            <span>{{projectBis.total_dislike}}</span>
+                                            
+                                          </td>
+              
+                                          <td width="20%">                                     
+              
+                                            <img class="card-img-top" src="./assets/img/eye_ico.png"  alt="" style="width :38px;height:35px;" >
+              
+                                            <span>{{projectBis.total_vues}}</span>
+                                            
+                                          </td>
+              
+                                          <td width="20%">                                     
+              
+                                            <img class="card-img-top" src="./assets/img/picto-dons-300x300.png"  alt="" style="width :38px;height:35px;" >
+              
+                                            <span>{{projectBis.total_fonds}} &euro;</span>
+                                            
+                                          </td>
+              
+                                        </tr>
+                                      </table>
+                                    </div>
+                                    <div class="card-footer">
+              
+                                      <a  class="btn btn-primary" [routerLink]="['/admin-projetcs-show' , projectBis.token ]"     >Consulter</a>             
+                                     
+                                      
+                                    </div>
+              
+                                  </div>
+              
+                                </div>              
+                                
+                          
+                              </div>
+              
+                     
+                            </div>
+                          
+                           
+                        </div>
+
+
+                         </ng-template>
+                        
+                      </ngb-tab>
+
+                  </ngb-tabset>
+
+      
+
+       
+              </div>
+            
+             
+          </div>
+  
+          </div>
+          <!-- /.container-fluid -->
+  
+        </div>
+        <!-- End of Main Content -->
+  
+        <!-- Footer -->
+        <app-footer-admin-templates *ngIf="infosUser.typeCompte == 'admin'"></app-footer-admin-templates>
+
+        <app-footer-user-templates *ngIf="infosUser.typeCompte == 'user'"></app-footer-user-templates>       
+        <!-- End of Footer -->
+  
+      </div>
+      <!-- End of Content Wrapper -->
+  
+    </div>
+    <!-- End of Page Wrapper -->
+  
+    <!-- Scroll to Top Button-->
+
+  
+  
+  
+  </body>
+  
+  
+  
+  
+
+
+
+
+

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L e espace c o n j u g u é espace d e espace z plus 3 i plus 2 espace e s t espace deux points espace fin de style"},"status":"ok"}

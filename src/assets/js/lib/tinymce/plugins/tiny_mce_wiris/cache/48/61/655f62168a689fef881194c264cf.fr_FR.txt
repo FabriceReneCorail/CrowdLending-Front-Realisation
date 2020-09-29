@@ -1,0 +1,1 @@
+{"result":{"text":"3 x égal à 258"},"status":"ok"}

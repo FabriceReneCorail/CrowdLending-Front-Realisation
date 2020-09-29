@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px numérateur de la fraction 3 simple pi au-dessus du dénominateur 8 fin de la fraction fin de style"},"status":"ok"}

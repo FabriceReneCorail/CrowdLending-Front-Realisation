@@ -1,0 +1,1 @@
+{"result":{"text":"ù x i t h o virgule t ù espace intégrale double"},"status":"ok"}

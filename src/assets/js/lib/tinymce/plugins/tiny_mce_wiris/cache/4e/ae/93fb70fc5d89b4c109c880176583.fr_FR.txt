@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace p o u r espace t o u t espace x supérieur à 0 virgule espace f parenthèse gauche x parenthèse droite inférieur ou égal à 2 sur x virgule espace a l o r s espace limite avec x flèche vers la droite plus infini de f parenthèse gauche x parenthèse droite égal à 0 fin de style"},"status":"ok"}

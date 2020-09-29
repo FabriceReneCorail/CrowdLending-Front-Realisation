@@ -1,0 +1,1 @@
+{"result":{"text":"x au carré moins 20 x moins 300 égal à 0"},"status":"ok"}

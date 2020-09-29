@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px limite avec x flèche vers la droite plus infini de début de racine carrée de x au carré plus 4 x plus 12 fin de racine moins x plus 2 espace espace e s t espace é g a l e espace à espace espace deux points fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"c. espace c apostrophe e s t espace f a u x. espace R e v o i r espace t o n espace c o r r i g e.\n\ne. espace c apostrophe e s t espace f a u x. espace R e v o i r espace t o n espace c o r r i g e."},"status":"ok"}

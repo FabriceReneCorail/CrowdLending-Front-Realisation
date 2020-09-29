@@ -1,0 +1,1 @@
+{"result":{"text":"index de racine blanc de 3"},"status":"ok"}

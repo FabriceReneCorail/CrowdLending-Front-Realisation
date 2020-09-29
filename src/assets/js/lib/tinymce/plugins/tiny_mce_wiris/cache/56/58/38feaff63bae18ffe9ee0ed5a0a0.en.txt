@@ -1,0 +1,1 @@
+{"result":{"text":"x squared minus 20 x minus 300 equals 0"},"status":"ok"}

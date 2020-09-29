@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style 4 e to the power of i straight pi over 4 end exponent end style"},"status":"ok"}

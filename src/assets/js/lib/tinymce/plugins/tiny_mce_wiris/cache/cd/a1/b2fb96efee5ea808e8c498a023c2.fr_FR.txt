@@ -1,0 +1,1 @@
+{"result":{"text":"3 x au carré moins 2 x au carré plus 6 x moins 14 x plus 5 moins 25 égal à 0"},"status":"ok"}

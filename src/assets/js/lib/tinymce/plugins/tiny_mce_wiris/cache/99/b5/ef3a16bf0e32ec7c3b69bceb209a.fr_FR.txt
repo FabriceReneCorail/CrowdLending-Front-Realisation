@@ -1,0 +1,1 @@
+{"result":{"text":"2 divisé par\nf ouvrir la parenthèse x fermer la parenthèse égal à 5 x au cube moins 1 sur x plus 3 racine carrée de x\nf apostrophe parenthèse gauche x parenthèse droite égal à 15 x au carré moins 1 sur x au carré plus numérateur de la fraction 3 au-dessus du dénominateur 2 racine carrée de x fin de la fraction"},"status":"ok"}

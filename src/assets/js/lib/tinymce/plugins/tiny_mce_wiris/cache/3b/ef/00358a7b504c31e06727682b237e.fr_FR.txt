@@ -1,0 +1,1 @@
+{"result":{"text":"moins 2 x au carré moins 4 x plus 3 égal à moins 2 parenthèse gauche x plus 1 parenthèse droite au carré plus 5 moins 2 x au carré moins 8 x moins 5 égal à moins 2 parenthèse gauche x plus 2 parenthèse droite au carré plus 3 moins 2 x au carré moins 4 x moins 2 égal à moins 2 parenthèse gauche x plus 1 parenthèse droite au carré"},"status":"ok"}

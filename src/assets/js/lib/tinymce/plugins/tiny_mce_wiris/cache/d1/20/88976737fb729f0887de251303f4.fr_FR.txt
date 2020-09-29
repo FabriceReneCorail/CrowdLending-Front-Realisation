@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px n égal à 4 fin de style"},"status":"ok"}

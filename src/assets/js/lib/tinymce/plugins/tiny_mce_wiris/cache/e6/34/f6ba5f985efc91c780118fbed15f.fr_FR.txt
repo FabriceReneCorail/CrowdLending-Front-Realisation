@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px t e l s espace q u e espace a espace e t espace b espace s o i e n t espace l e s espace s o l u t i o n s espace d e espace l apostrophe é q u a t i o n espace espace z au carré moins 2 z plus 3 égal à 0 fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px P o u r espace t o u t espace e n t i e r espace n espace supérieur ou égal à 2 espace virgule espace espace V indice n égal à numérateur de la fraction n au-dessus du dénominateur ouvrir la parenthèse n moins 2 fermer la parenthèse factorielle fin de la fraction fin de style"},"status":"ok"}

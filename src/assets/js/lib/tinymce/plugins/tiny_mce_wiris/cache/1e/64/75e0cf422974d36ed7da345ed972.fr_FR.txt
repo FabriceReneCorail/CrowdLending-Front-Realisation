@@ -1,0 +1,1 @@
+{"result":{"text":"au cube racine de 4"},"status":"ok"}

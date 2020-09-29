@@ -1,0 +1,1 @@
+{"result":{"text":"f o g parenthèse gauche 4 parenthèse droite égal à numérateur de la fraction 7 au-dessus du dénominateur 4 racine carrée de 3 fin de la fraction"},"status":"ok"}

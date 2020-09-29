@@ -1,0 +1,1 @@
+{"result":{"text":"racine carrée de 3 espace espace p i n t h o i virgule accent circonflexe t o i virgule t j x virgule ô virgule"},"status":"ok"}

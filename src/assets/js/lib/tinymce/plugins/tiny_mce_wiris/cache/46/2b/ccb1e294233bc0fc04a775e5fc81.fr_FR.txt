@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px n espace e s t espace u n espace e n t i e r espace n a t u r e l. fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style z subscript 2 over z subscript 3 equals 2 square root of 2 e to the power of i fraction numerator 3 straight pi over denominator 4 end fraction end exponent end style"},"status":"ok"}

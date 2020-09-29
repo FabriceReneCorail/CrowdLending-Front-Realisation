@@ -1,0 +1,1 @@
+{"result":{"text":"numérateur de la fraction racine carrée de 3 au-dessus du dénominateur 4 fin de la fraction i"},"status":"ok"}

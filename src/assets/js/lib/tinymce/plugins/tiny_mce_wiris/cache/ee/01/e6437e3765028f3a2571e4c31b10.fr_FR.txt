@@ -1,0 +1,1 @@
+{"result":{"text":"S i espace espace p o u r espace t o u t espace espace e n t i e r espace espace n a t u r e l espace n virgule espace espace espace v indice n inférieur ou égal à u indice n inférieur ou égal à w indice n espace virgule"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"c o d e _ t e s t 2 racine carrée de 3"},"status":"ok"}

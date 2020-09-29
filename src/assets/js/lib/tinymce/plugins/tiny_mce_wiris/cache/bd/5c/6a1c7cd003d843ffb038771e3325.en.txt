@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style f apostrophe left parenthesis x right parenthesis equals fraction numerator negative 2 e to the power of x over denominator open parentheses x plus 1 close parentheses squared end fraction end style"},"status":"ok"}

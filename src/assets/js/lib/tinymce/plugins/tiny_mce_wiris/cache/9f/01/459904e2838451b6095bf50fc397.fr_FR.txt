@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L apostrophe é q u a t i o n espace moins z égal à z avec moins au-dessus espace d apostrophe i n c o n n u e espace c o m p l e x e espace z virgule espace a d m e t espace deux points fin de style"},"status":"ok"}

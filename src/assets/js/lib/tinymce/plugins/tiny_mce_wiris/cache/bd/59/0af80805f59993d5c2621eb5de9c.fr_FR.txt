@@ -1,0 +1,1 @@
+{"result":{"text":"x au carré moins 8 x moins 20 égal à 0 espace espace espace espace espace espace espace espace espace espace espace x au carré moins 8 x plus 16 moins 16 moins 20 égal à 0"},"status":"ok"}

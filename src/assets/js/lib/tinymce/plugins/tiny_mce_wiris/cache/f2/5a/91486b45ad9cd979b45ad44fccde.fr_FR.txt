@@ -1,0 +1,1 @@
+{"result":{"text":"q égal à t indice 5 sur t indice 4 égal à 1.5"},"status":"ok"}

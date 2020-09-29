@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L a espace l i m i t e espace e n espace plus infini espace d e espace l a espace f o n c t i o n espace x flèche d ' un taquet vers la droite numérateur de la fraction e puissance x au-dessus du dénominateur 2 plus e puissance x fin de la fraction espace e s t espace deux points fin de style"},"status":"ok"}

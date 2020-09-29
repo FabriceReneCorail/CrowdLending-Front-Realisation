@@ -1,0 +1,1 @@
+{"result":{"text":"x au carré plus parenthèse gauche x plus 1 parenthèse droite au carré plus parenthèse gauche x plus 2 parenthèse droite au carré égal à parenthèse gauche x plus 3 parenthèse droite au carré plus parenthèse gauche x plus 4 parenthèse droite au carré"},"status":"ok"}

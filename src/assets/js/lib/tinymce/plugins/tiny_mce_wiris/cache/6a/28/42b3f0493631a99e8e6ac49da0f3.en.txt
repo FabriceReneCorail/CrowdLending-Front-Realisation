@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style fraction numerator 1 plus 7 square root of 2 over denominator 2 end fraction end style"},"status":"ok"}

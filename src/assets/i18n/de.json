@@ -1,0 +1,21 @@
+{
+
+    "accueil_h1": "Willkommen bei Lend Me, der ersten multikulturellen Crowdfunding-Site",
+
+    "profil_user_nom_label": "Dein Name",
+    "profil_user_prenom_label": "Ihr Vorname",
+    "profil_user_mail_label": "Ihre E-Mail-Adresse",
+    "profil_user_sexe_label": "Dein Geschlecht",
+    "profil_user_mdp_label": "Ihr Passwort:",
+    "profil_user_img_label": "Profilbild",
+    "profil_user_span_text_label": "Bearbeiten",
+
+    "profil_user_button_btnbtnprimarybtnblock": "Aktualisiere dein Profil",
+    "profil_user_div_alertalertdanger": "Modify",
+
+    "profil_user_div_alertalertdanger_strong": "Fehler!"
+
+
+
+
+}

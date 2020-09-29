@@ -1,0 +1,1 @@
+{"result":{"text":"U indice 3 égal à U indice 2 plus r\n5 égal à ouvrir la parenthèse moins 4 fermer la parenthèse plus r\nr égal à 9\n\nU indice 0 égal à 5 plus ouvrir la parenthèse 0 moins 3 fermer la parenthèse croix de multiplication r\nU indice 0 égal à 5 plus ouvrir la parenthèse moins 27 fermer la parenthèse\nU indice 0 égal à moins 22\n"},"status":"ok"}

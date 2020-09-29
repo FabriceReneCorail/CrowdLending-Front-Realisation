@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L apostrophe a x e espace r é e l espace parenthèse gauche O x parenthèse droite espace e s t espace l a espace m é d i a t r i c e. fin de style"},"status":"ok"}

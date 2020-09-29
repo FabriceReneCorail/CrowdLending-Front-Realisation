@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px b espace e t espace c espace v é r i f i e n t espace l apostrophe é g a l i t é espace c sur b égal à racine carrée de 2 e puissance i simple pi sur 4 fin de l'exposant fin de style"},"status":"ok"}

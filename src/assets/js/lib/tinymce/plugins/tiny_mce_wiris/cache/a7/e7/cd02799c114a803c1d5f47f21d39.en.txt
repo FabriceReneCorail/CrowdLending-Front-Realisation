@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style square root of 12 e to the power of negative i straight pi over 12 end exponent end style"},"status":"ok"}

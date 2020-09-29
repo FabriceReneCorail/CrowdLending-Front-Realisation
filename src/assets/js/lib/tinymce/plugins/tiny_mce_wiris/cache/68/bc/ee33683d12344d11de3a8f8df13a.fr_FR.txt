@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px espace e t espace p o u r espace t o u t espace n appartient à simple nombres entiers naturels virgule espace espace U indice n plus 1 fin d'indice égal à numérateur de la fraction U indice n plus 2 au-dessus du dénominateur U indice n au carré plus 5 fin de la fraction. fin de style"},"status":"ok"}

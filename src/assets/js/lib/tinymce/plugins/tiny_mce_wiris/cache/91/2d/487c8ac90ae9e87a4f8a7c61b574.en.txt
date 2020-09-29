@@ -1,0 +1,1 @@
+{"result":{"text":"bold italic F subscript bold n bold plus bold 2 end subscript bold equals bold italic F subscript bold n bold plus bold 1 end subscript bold plus bold italic F subscript bold n"},"status":"ok"}

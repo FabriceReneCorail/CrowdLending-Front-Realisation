@@ -1,0 +1,1 @@
+{"result":{"text":"S égal à accolade ouverte moins 5 point-virgule 1 accolade fermée"},"status":"ok"}

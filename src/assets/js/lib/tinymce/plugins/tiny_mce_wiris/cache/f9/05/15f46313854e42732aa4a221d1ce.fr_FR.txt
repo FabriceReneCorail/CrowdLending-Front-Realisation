@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px moins numérateur de la fraction 2 simple pi au-dessus du dénominateur 3 fin de la fraction plus theta fin de style"},"status":"ok"}

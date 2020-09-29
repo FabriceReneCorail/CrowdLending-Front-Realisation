@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style z with bar on top minus 3 i plus 2 end style"},"status":"ok"}

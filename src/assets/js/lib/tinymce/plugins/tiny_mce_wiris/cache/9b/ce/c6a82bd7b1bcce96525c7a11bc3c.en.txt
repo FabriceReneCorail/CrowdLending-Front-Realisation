@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style negative infinity end style"},"status":"ok"}

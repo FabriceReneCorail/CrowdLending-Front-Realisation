@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L e espace p l a n espace c o m p l e x e espace e s t espace r a p p o r t é espace a u espace r e p è r e espace o r t h o n o r m a l ouvrir la parenthèse O virgule u avec flèche vers la droite au-dessus virgule v avec flèche vers la droite au-dessus fermer la parenthèse.\nfin de style"},"status":"ok"}

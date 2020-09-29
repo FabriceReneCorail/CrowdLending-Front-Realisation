@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px O n espace p o s e espace z égal à moins début de racine carrée de 2 plus racine carrée de 2 fin de racine plus i début de racine carrée de 2 moins racine carrée de 2 fin de racine\nfin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L a espace d r o i t e espace d apostrophe é q u a t i o n espace x égal à 3 espace e s t espace a s y m p t o t e espace à espace l a espace c o u r b e espace r e p r é s e n t a t i v e fin de style"},"status":"ok"}

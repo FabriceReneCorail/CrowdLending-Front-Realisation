@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style limit as n rightwards arrow plus infinity of U subscript n equals 3 end style"},"status":"ok"}

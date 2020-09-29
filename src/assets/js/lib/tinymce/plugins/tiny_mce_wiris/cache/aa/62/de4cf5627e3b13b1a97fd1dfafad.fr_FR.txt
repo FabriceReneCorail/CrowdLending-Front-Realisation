@@ -1,0 +1,1 @@
+{"result":{"text":"supérieur ou égal à 6 n espace plus espace 7 \""},"status":"ok"}

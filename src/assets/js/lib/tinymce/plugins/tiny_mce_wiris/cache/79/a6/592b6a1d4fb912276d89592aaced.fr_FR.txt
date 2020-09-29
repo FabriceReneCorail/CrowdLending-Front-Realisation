@@ -1,0 +1,1 @@
+{"result":{"text":"numérateur de la fraction moins b plus racine carrée de incrément au-dessus du dénominateur 2 a fin de la fraction"},"status":"ok"}

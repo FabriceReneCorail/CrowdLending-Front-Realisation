@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px Q u e l espace s o n t espace l e s espace v a r i a t i o n s espace d e espace l a espace f o n c t i o n espace g espace ? fin de style"},"status":"ok"}

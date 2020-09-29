@@ -1,0 +1,1 @@
+{"result":{"text":"de droite à gauche numérateur de la fraction f ouvrir la parenthèse x fermer la parenthèse au-dessus du dénominateur infini fin de la fraction x égal à 1 sur x قا ouvrir la parenthèse blanc fermer la parenthèse s i espace s i s g f f f f f f c s f q f c espace espace espace espace 😳"},"status":"ok"}

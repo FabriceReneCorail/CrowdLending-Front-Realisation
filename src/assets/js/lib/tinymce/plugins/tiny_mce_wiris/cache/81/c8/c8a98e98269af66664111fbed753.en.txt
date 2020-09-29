@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 24px style integral subscript 1 superscript 2 fraction numerator x squared minus 2 x minus 2 minus 3 ln open parentheses x close parentheses over denominator x end fraction d x equals ? end style"},"status":"ok"}

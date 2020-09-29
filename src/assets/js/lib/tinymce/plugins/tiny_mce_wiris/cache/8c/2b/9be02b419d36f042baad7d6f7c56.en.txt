@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style limit as n rightwards arrow plus infinity of v subscript n equals negative infinity end style"},"status":"ok"}

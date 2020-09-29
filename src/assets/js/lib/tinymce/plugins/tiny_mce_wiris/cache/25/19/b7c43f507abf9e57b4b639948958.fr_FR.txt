@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L apostrophe e q u a t i o n espace espace e puissance 2 x fin de l'exposant moins 4 e puissance x moins 1 égal à 0 espace espace a d m e t espace c o m b i e n espace d e espace s o l u t i o n s espace espace ? fin de style"},"status":"ok"}

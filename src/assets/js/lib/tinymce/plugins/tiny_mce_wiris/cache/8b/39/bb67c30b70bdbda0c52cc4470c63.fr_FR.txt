@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L apostrophe e n s e m b l e espace d e s espace p o i n t s espace d apostrophe a f f i x e espace z espace t e l l e espace q u e espace trait vertical ouvert(e) z plus i trait vertical fermé(e) égal à trait vertical ouvert(e) z moins 1 trait vertical fermé(e) espace e s t espace deux points fin de style"},"status":"ok"}

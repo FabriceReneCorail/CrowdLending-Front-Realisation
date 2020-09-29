@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+}
+
+.styleJumbotron{
+  margin-top:150px;
+}
+
+.photo1{
+  transition: transform .2s
+}
+
+.photo1:hover{
+ transform:scale(1.2);
+}
+.photo2{
+  transition: transform .2s
+}
+
+.photo2:hover{
+ transform:scale(1.2);
+}
+.photo3{
+  transition: transform .2s
+}
+
+.photo3:hover{
+ transform:scale(1.2);
+}

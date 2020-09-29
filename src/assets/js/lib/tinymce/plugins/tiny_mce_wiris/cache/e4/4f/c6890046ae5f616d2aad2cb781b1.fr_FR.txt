@@ -1,0 +1,1 @@
+{"result":{"text":"U espace e s t espace b o r n é e espace p a r espace 1 espace e t espace 2."},"status":"ok"}

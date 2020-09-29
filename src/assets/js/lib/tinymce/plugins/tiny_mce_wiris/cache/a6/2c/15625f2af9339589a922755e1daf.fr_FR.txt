@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px empilement li m avec x flèche vers la droite moins infini en dessous numérateur de la fraction début de racine carrée de 2 plus x au carré fin de racine au-dessus du dénominateur x fin de la fraction espace espace e s t espace é g a l e espace deux points fin de style"},"status":"ok"}

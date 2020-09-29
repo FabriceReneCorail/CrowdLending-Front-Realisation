@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S o i t espace ouvrir la parenthèse U indice n fermer la parenthèse indice n supérieur ou égal à 0 fin d'indice espace espace l a espace s u i t e espace d é f i n i e espace p a r espace deux points espace p o u r espace t o u t espace n appartient à simple nombres entiers naturels virgule espace fin de style"},"status":"ok"}

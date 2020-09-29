@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px moins infini fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"c c s g c q espace 3 sur 6 espace espace espace accolade ouverte tableau d'attributs aligné sur la left espacement de colonne 1.4ex fin des attributs ligne blank blank ligne blank blank fin de tableau fin"},"status":"ok"}

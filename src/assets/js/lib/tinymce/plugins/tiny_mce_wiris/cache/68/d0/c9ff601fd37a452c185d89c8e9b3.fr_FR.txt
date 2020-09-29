@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px limite avec n flèche vers la droite plus infini de ouvrir la parenthèse U indice n plus V indice n fermer la parenthèse égal à 0 fin de style"},"status":"ok"}

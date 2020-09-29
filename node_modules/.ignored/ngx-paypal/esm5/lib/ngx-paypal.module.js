@@ -1,0 +1,34 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/ngx-paypal.module.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { NgxPaypalComponent } from './components/paypal.component';
+import { ScriptService } from './services/script.service';
+import { PayPalScriptService } from './services/paypal-script.service';
+var NgxPayPalModule = /** @class */ (function () {
+    function NgxPayPalModule() {
+    }
+    NgxPayPalModule.decorators = [
+        { type: NgModule, args: [{
+                    imports: [
+                        CommonModule
+                    ],
+                    declarations: [
+                        NgxPaypalComponent,
+                    ],
+                    exports: [
+                        NgxPaypalComponent,
+                    ],
+                    providers: [
+                        ScriptService,
+                        PayPalScriptService
+                    ]
+                },] }
+    ];
+    return NgxPayPalModule;
+}());
+export { NgxPayPalModule };
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXBheXBhbC5tb2R1bGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtcGF5cGFsLyIsInNvdXJjZXMiOlsibGliL25neC1wYXlwYWwubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFFekMsT0FBTyxFQUFFLGtCQUFrQixFQUFFLE1BQU0sK0JBQStCLENBQUM7QUFDbkUsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDJCQUEyQixDQUFDO0FBQzFELE9BQU8sRUFBRSxtQkFBbUIsRUFBRSxNQUFNLGtDQUFrQyxDQUFDO0FBRXZFO0lBQUE7SUFnQkEsQ0FBQzs7Z0JBaEJBLFFBQVEsU0FBQztvQkFDUixPQUFPLEVBQUU7d0JBQ1AsWUFBWTtxQkFDYjtvQkFDRCxZQUFZLEVBQUU7d0JBQ1osa0JBQWtCO3FCQUNuQjtvQkFDRCxPQUFPLEVBQUU7d0JBQ1Asa0JBQWtCO3FCQUNuQjtvQkFDRCxTQUFTLEVBQUU7d0JBQ1QsYUFBYTt3QkFDYixtQkFBbUI7cUJBQ3BCO2lCQUNGOztJQUVELHNCQUFDO0NBQUEsQUFoQkQsSUFnQkM7U0FEWSxlQUFlIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ29tbW9uTW9kdWxlIH0gZnJvbSAnQGFuZ3VsYXIvY29tbW9uJztcclxuaW1wb3J0IHsgTmdNb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuXHJcbmltcG9ydCB7IE5neFBheXBhbENvbXBvbmVudCB9IGZyb20gJy4vY29tcG9uZW50cy9wYXlwYWwuY29tcG9uZW50JztcclxuaW1wb3J0IHsgU2NyaXB0U2VydmljZSB9IGZyb20gJy4vc2VydmljZXMvc2NyaXB0LnNlcnZpY2UnO1xyXG5pbXBvcnQgeyBQYXlQYWxTY3JpcHRTZXJ2aWNlIH0gZnJvbSAnLi9zZXJ2aWNlcy9wYXlwYWwtc2NyaXB0LnNlcnZpY2UnO1xyXG5cclxuQE5nTW9kdWxlKHtcclxuICBpbXBvcnRzOiBbXHJcbiAgICBDb21tb25Nb2R1bGVcclxuICBdLFxyXG4gIGRlY2xhcmF0aW9uczogW1xyXG4gICAgTmd4UGF5cGFsQ29tcG9uZW50LFxyXG4gIF0sXHJcbiAgZXhwb3J0czogW1xyXG4gICAgTmd4UGF5cGFsQ29tcG9uZW50LFxyXG4gIF0sXHJcbiAgcHJvdmlkZXJzOiBbXHJcbiAgICBTY3JpcHRTZXJ2aWNlLFxyXG4gICAgUGF5UGFsU2NyaXB0U2VydmljZVxyXG4gIF1cclxufSlcclxuZXhwb3J0IGNsYXNzIE5neFBheVBhbE1vZHVsZSB7XHJcbn1cclxuXHJcblxyXG4iXX0=

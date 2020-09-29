@@ -1,0 +1,1 @@
+{"result":{"text":"numérateur de la fraction racine carrée de 3 au-dessus du dénominateur 4 fin de la fraction espace espace c apostrophe e s t espace u n espace espace t e s t"},"status":"ok"}

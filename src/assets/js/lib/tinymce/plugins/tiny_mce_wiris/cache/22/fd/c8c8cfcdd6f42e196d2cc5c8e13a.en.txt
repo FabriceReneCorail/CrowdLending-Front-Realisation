@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 24px style U subscript n equals fraction numerator n plus open parentheses negative 1 close parentheses to the power of n square root of n over denominator 2 n plus 3 end fraction. end style"},"status":"ok"}

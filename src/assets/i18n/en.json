@@ -1,0 +1,18 @@
+{
+    "accueil_h1": "Welcome to Lend Me, the first multicultural crowdfunding site",
+
+    "profil_user_nom_label": "Your name",
+    "profil_user_prenom_label": "Your first name",
+    "profil_user_mail_label": "Your e-mail address",
+    "profil_user_sexe_label": "Your sex",
+    "profil_user_mdp_label": "Your password:",
+    "profil_user_img_label": "Profile image",
+    "profil_user_span_text_label": "Edit",
+
+    "profil_user_button_btnbtnprimarybtnblock": "Update your profile",
+    "profil_user_div_alertalertdanger": "Modify",
+
+    "profil_user_div_alertalertdanger_strong": "Error!"
+
+
+}

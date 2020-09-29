@@ -1,0 +1,1 @@
+{"result":{"text":"begin bold style left parenthesis F subscript n right parenthesis end style subscript bold n bold greater or equal than bold 1 end subscript"},"status":"ok"}

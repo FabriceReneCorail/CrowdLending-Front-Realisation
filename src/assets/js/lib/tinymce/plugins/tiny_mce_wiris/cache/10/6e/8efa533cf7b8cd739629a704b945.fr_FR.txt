@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px c o u p e espace l a espace d r o i t e espace d apostrophe é q u a t i o n espace y égal à a fin de style"},"status":"ok"}

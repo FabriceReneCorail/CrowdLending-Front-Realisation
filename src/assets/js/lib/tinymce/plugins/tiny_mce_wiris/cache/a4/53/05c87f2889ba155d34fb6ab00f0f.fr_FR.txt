@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px L apostrophe e n s e m b l e espace d e s espace p o i n t s espace d apostrophe a f f i x e espace z espace t e l l e espace q u e espace numérateur de la fraction z plus i au-dessus du dénominateur z plus 1 fin de la fraction espace s o i t espace u n espace r é e l espace e s t espace deux points fin de style"},"status":"ok"}

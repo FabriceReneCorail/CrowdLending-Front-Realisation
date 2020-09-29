@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 24px style U subscript n plus 1 end subscript equals 1 third U subscript n squared plus 2 over 3. end style"},"status":"ok"}

@@ -1,0 +1,18 @@
+{
+    "accueil_h1": "YOUPI a Lend Me, el primer sitio de financiación colectiva multicultural",
+
+    "profil_user_nom_label": "Su nombre",
+    "profil_user_prenom_label": "Su nombre",
+    "profil_user_mail_label": "Su dirección de correo electrónico",
+    "profil_user_sexe_label": "Tu sexo",
+    "profil_user_mdp_label": "Tu contraseña:",
+    "profil_user_img_label": "Imagen de perfil",
+    "profil_user_span_text_label": "Editar",
+
+    "profil_user_button_btnbtnprimarybtnblock": "actualiza tu perfil",
+    "profil_user_div_alertalertdanger": "Modificar",
+
+    "profil_user_div_alertalertdanger_strong": "¡Error!"
+
+
+}

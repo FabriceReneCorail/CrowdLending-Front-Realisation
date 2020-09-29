@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px S i espace ouvrir la parenthèse U indice n fermer la parenthèse espace a espace u n e espace l i m i t e espace calligraphique l virgule espace a l o r s espace calligraphique l au cube moins 4 calligraphique l égal à 2 fin de style"},"status":"ok"}

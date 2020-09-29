@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style square root of 3 e to the power of i fraction numerator 19 straight pi over denominator 12 end fraction end exponent end style"},"status":"ok"}

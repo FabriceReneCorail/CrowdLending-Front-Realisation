@@ -1,0 +1,297 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+  
+      <!-- Sidebar -->
+      <app-side-bar-left-user-templates *ngIf="infosUser.typeCompte == 'user'"></app-side-bar-left-user-templates>
+
+      <app-side-bar-left-admin-templates *ngIf="infosUser.typeCompte == 'admin'"></app-side-bar-left-admin-templates>
+     
+      <!-- End of Sidebar -->
+  
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+  
+        <!-- Main Content -->
+        <div id="content">
+  
+          <!-- Topbar  start Nav -->
+
+          <app-nav-admin-templates *ngIf="infosUser.typeCompte == 'admin'"></app-nav-admin-templates>
+
+          <app-nav-user-templates *ngIf="infosUser.typeCompte == 'user'"></app-nav-user-templates>        
+
+          
+         
+          <!-- End of Topbar end Nav -->
+  
+          <!-- Begin Page Content -->
+          <div class="container-fluid">
+  
+             <!------------------------- Début formulaire ----------------------------------------------->
+
+            <div class="row">
+
+              <div class="col-lg-12">              
+
+                <h3>LES FILTRES DE RECHERCHE</h3>
+
+              </div>
+
+
+            </div>
+
+            <div class="row" style="margin-bottom: 5%;margin-top: 2%;">
+
+          
+
+             
+
+               <!------------------------------------------------------------------------>
+
+              <div class="col-lg-3">
+
+                <div class="form-group">
+
+                  <label>Votre projet est porté par : </label>      
+                  
+                     <div class="controls">
+                   
+                        <select class="form-control"  (change)="onChangePorteProject($event.target.value)"  name="porte_project">
+        
+                            <option  value="">Selectionner porté de projet</option>   
+  
+                            <option  [value]="i" *ngFor="let porteProject of listPorteProject  let i = index" >{{porteProject.nom}}</option>                   
+                            
+                        </select> 
+  
+                    </div>
+  
+                </div>
+
+              </div>
+
+              <!------------------------------------------------------------------------>
+
+              <div class="col-lg-3">
+
+                <div class="form-group">
+
+                  <label>Categorie projet : </label>      
+                            
+                       <div class="controls">
+                             
+                              <select class="form-control"  (change)="onChangeCategorieProject($event.target.value)" name="categorie_project">
+                  
+                                      <option  value="">Selectionner categorie de projet</option>               
+                  
+                                      <option  [value]="i" *ngFor="let categorie of listCategorieProject let i = index"  >{{categorie.nom}}</option>                                        
+                                     
+                              </select> 
+
+                        </div>
+  
+                </div>
+
+              </div>
+
+              <!------------------------------------------------------------------------>
+
+              <div class="col-lg-3">
+
+                <div class="form-group">
+
+                  <label>Statut projet : </label>      
+                            
+                       <div class="controls">
+                             
+                              <select class="form-control"  (change)="onChangeStatutProject($event.target.value)" name="statut_project">
+                  
+                                      <option  value="">Selectionner statut de projet</option>               
+                  
+                                      <option  [value]="i" *ngFor="let statut of listeStatusProject let i = index"  >{{statut.nom}}</option>                                        
+                                     
+                              </select> 
+
+                        </div>
+  
+                </div>
+
+              </div>
+
+
+              <!------------------------------------------------------------------------>
+            </div>
+
+               <!------------------------- Fin formulaire ----------------------------------------------->
+
+            <!-- Page Heading -->
+            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+              <h1 class="h3 mb-0 text-gray-800" *ngIf="tagSearch!=''">LES RESULTATS DES RECHERCHES DES PROJETS POUR MOT CLE : <span style="color:red;font-weight: bold;">{{tagSearch}}</span> </h1>
+             
+            </div>
+
+            <div class="row"  *ngIf="showAlertResult"> 
+              
+              <div class="col-lg-12 mb-12">
+
+                <div class="alert alert-primary" role="alert">
+                  <img  src="./assets/img/not-found.png"  style="width:100px"/>Aucun resulat qui correspond a vos recherches.
+                </div>
+
+              </div>
+
+            </div>
+  
+          
+            <div class="row">                      
+  
+              <!-- Content Column -->
+              <div class="col-lg-12 mb-12">              
+
+                <div class="row text-center">
+  
+                  <div class="col-lg-4 col-md-6 mb-4"  *ngFor="let project of listProjects; let i = index ">
+                    <div class="card h-100"   >                     
+                     
+                      <img class="card-img-top" [src]="project.afficheProject" alt="" style="width :300px;height:200px;margin-left:20%;" [routerLink]="['/admin-projetcs-show' , project.token ]">
+                      <div class="card-body">
+                        <h4 class="card-title">{{project.nom}}</h4>                     
+                        <h5 class="card-title">{{project._statut_project.nom}}</h5>
+                        <h5 class="card-title"  *ngIf="project._statut_project.nom === 'Validé'">{{listtemplateProjects[i].nbrJours}}</h5>
+                        <h5 class="card-title">{{listtemplateProjects[i].dateLimiteCollecteFormate}}</h5>
+                        <h5 class="card-title">{{project.categoryProject.nom}}</h5>
+
+                        <table  style="margin-left: 10%;">
+
+                          <tr>
+
+                            <td width="10%">                                
+
+                              <img class="card-img-top" src="./assets/img/heart-icon.png"  alt="" style="width :35px;height:35px;" >
+
+                              <span>{{project.total_hearts}}</span>
+
+                            </td>
+
+                            <td width="30%"  style="text-align: center;">                                
+
+                              <img class="card-img-top" src="./assets/img/like_ico.png"  alt="" style="width :35px;height:35px;" >
+
+                              <span>{{project.total_like}}</span>
+                              
+                            </td>
+
+                            <td width="20%">                                     
+
+                              <img class="card-img-top" src="./assets/img/dislike_ico.png"  alt="" style="width :35px;height:35px;" >
+
+                              <span>{{project.total_dislike}}</span>
+                              
+                            </td>
+
+                            <td width="20%">                                     
+
+                              <img class="card-img-top" src="./assets/img/eye_ico.png"  alt="" style="width :38px;height:35px;" >
+
+                              <span>{{project.total_vues}}</span>
+                              
+                            </td>
+
+                            <td width="20%">                                     
+
+                              <img class="card-img-top" src="./assets/img/picto-dons-300x300.png"  alt="" style="width :38px;height:35px;" >
+
+                              <span>{{project.total_fonds}} &euro;</span>
+                              
+                            </td>
+
+                          </tr>
+                        </table>
+                      </div>
+                      <div class="card-footer">
+
+                        <button type="button" class="btn btn-info" style="margin-right: 1%;"  *ngIf="listtemplateProjects[i].favorisProject==0" (click)="addProjectByMyFavoris(i, project)">Ajoutera mes favoris</button>
+
+                        <button type="button" class="btn btn-danger" style="margin-right: 1%;"  *ngIf="listtemplateProjects[i].favorisProject==1" (click)="removeProjectByMyFavoris(i, project)">Supprimer de mes favoris</button>
+
+                       
+
+                        <a  class="btn btn-primary" [routerLink]="['/admin-projetcs-show' , project.token ]"  >Consulter</a>                                    
+                        
+                      </div>
+
+                    </div>
+
+                  </div>              
+                  
+            
+                </div>
+
+       
+              </div>
+            
+             
+          </div>
+  
+          </div>
+          <!-- /.container-fluid -->
+
+         
+  
+        </div>
+        <!-- End of Main Content -->
+  
+        <!-- Footer -->
+        <app-footer-admin-templates *ngIf="infosUser.typeCompte == 'admin'"></app-footer-admin-templates>
+
+        <app-footer-user-templates *ngIf="infosUser.typeCompte == 'user'"></app-footer-user-templates>
+               
+        <!-- End of Footer -->
+  
+      </div>
+      <!-- End of Content Wrapper -->
+  
+    </div>
+    <!-- End of Page Wrapper -->
+  
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  
+    <!-- Logout Modal-->
+    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <button class="btn btn-primary">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  </body>
+  
+  
+  
+  
+
+
+
+
+

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px 2 racine carrée de 2 fin de style"},"status":"ok"}

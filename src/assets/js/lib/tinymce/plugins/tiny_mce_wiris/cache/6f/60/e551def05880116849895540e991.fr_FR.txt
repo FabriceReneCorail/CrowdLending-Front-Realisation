@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px f puissance apostrophe parenthèse gauche x parenthèse droite égal à numérateur de la fraction moins 2 x e puissance x au-dessus du dénominateur ouvrir la parenthèse x plus 1 fermer la parenthèse au carré fin de la fraction fin de style"},"status":"ok"}

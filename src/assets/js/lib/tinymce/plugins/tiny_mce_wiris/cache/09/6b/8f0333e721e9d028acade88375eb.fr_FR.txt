@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px z indice 2 sur z indice 3 égal à 2 racine carrée de 2 e puissance i numérateur de la fraction 3 simple pi au-dessus du dénominateur 4 fin de la fraction fin de l'exposant fin de style"},"status":"ok"}

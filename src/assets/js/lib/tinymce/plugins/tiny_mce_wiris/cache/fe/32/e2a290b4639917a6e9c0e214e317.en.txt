@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style negative fraction numerator 2 straight pi over denominator 3 end fraction plus theta end style"},"status":"ok"}

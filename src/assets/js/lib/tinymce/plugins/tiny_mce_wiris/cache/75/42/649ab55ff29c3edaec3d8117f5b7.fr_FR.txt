@@ -1,0 +1,1 @@
+{"result":{"text":"2 puissance n supérieur ou égal à 6 n espace plus 1"},"status":"ok"}

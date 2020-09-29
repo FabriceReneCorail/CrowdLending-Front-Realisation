@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px 0 inférieur ou égal à h parenthèse gauche x parenthèse droite inférieur ou égal à racine carrée de x virgule espace a l o r s espace limite avec x flèche vers la droite plus infini de h parenthèse gauche x parenthèse droite égal à 0 fin de style"},"status":"ok"}

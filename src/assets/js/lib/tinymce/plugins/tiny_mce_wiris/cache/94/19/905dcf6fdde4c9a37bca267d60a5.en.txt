@@ -1,0 +1,1 @@
+{"result":{"text":"open vertical bar z subscript 1 close vertical bar equals open vertical bar z subscript 2 close vertical bar equals fraction numerator square root of 5 over denominator 5 end fraction"},"status":"ok"}

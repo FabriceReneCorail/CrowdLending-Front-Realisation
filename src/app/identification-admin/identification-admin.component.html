@@ -1,0 +1,51 @@
+<ngx-ui-loader></ngx-ui-loader>
+<div class="container login-container">
+            <div class="row">
+
+           
+                <div class="col-md-6 login-form-1">
+                    <h3>Identification</h3>
+
+                    <div class="alert alert-danger"  *ngIf="isErreurLogin">
+                        <strong>Erreur!</strong>  identification
+                     </div>
+
+                    <form   class="form-horizontal" #loginForm = "ngForm"  (ngSubmit)="onFormSubmitLogin()">
+                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Your Email *" [(ngModel)] = "ObjetLogin.emailLogin"  name="emailLogin" required value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Your Password *"  [(ngModel)] = "ObjetLogin.passwordLogin"   name="passwordLogin"   required value="" />
+                        </div> 
+                        
+                        <div class="control-group form-group">
+
+                            <div #recaptcha ></div>
+                       </div>
+                         
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary" [disabled]="!loginForm.form.valid">Login</button>
+                        </div>
+
+                      
+
+                      <div class="alert alert-danger"  *ngIf="isErreurCaptcha">
+                        <strong>Erreur!</strong>  Veuillez valider votre captcha
+                      </div>
+
+                        <div class="form-group">
+                            <a href="#" class="btnForgetPwd">Forget Password?</a> 
+                        </div>
+
+                    </form>   
+                    
+                </div>    
+
+        </div>
+</div>
+
+
+
+
+

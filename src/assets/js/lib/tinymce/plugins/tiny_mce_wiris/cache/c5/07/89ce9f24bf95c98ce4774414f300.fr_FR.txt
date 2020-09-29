@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px n apostrophe e s t espace p a s espace m o n o t o n e fin de style"},"status":"ok"}

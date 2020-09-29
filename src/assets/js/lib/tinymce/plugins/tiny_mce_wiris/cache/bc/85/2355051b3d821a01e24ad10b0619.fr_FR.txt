@@ -1,0 +1,1 @@
+{"result":{"text":"D e u x espace s o l u t i o n s espace d e espace m e m e espace s i g n e s."},"status":"ok"}

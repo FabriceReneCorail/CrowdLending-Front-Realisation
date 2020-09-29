@@ -1,0 +1,1 @@
+{"result":{"text":"L e espace m o d u l e espace d e espace z indice 1 espace espace v a u t espace espace moins 2."},"status":"ok"}

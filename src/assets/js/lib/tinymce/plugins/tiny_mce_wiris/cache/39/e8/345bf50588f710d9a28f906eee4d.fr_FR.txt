@@ -1,0 +1,1 @@
+{"result":{"text":"z au carré moins 4 z plus 4 égal à 0\nincrément égal à parenthèse gauche moins 4 parenthèse droite au carré moins 4 croix de multiplication 1 croix de multiplication 4\nespace espace espace égal à 0\nz indice 1 égal à z indice 2 moins numérateur de la fraction b au-dessus du dénominateur 2 a fin de la fraction égal à 4 sur 2 égal à 2\n"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"L a espace s u i t e espace e s t espace c o n v e r g e n t e."},"status":"ok"}

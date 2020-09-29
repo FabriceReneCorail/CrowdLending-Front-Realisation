@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px D a n s espace simple nombres réels virgule espace L apostrophe é q u a t i o n espace e puissance 2 x fin de l'exposant moins 2 e puissance x plus 1 égal à 0 espace a d m e t espace deux points espace fin de style"},"status":"ok"}

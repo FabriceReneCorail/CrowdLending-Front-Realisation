@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style 4 e to the power of negative i fraction numerator 3 straight pi over denominator 4 end fraction end exponent end style"},"status":"ok"}

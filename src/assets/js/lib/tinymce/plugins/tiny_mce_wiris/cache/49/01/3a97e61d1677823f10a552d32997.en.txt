@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style calligraphic A left parenthesis H right parenthesis equals e to the power of straight pi over 2 end exponent end style"},"status":"ok"}

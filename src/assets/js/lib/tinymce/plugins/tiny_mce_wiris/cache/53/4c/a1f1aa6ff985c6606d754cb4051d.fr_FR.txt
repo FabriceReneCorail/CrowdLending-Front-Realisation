@@ -1,0 +1,1 @@
+{"result":{"text":"c o r r i g e espace t e s t espace espace début de racine carrée de 2 plus i fin de racine"},"status":"ok"}

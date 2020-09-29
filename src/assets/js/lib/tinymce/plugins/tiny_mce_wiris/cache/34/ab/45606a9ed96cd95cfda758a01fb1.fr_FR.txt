@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px z indice 1 égal à 1 moins i racine carrée de 3 espace point-virgule espace espace z indice 2 égal à 4 plus 4 i espace espace point-virgule espace espace z indice 3 égal à ouvrir la parenthèse 1 moins i fermer la parenthèse au carré fin de style"},"status":"ok"}

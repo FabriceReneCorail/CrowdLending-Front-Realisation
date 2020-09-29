@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px z indice 3 sur z indice 1 égal à e puissance moins i simple pi sur 6 fin de l'exposant fin de style"},"status":"ok"}

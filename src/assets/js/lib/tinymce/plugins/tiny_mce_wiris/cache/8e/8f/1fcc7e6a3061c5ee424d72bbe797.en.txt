@@ -1,0 +1,1 @@
+{"result":{"text":"f o g left parenthesis 4 right parenthesis equals fraction numerator 7 over denominator 4 square root of 3 end fraction"},"status":"ok"}

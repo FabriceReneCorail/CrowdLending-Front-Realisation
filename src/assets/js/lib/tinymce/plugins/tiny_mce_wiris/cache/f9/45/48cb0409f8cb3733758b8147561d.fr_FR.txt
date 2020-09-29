@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace f o n c t i o n espace g espace e s t espace espace m o n o t o n e espace s u r espace crochet ouvert moins simple pi virgule simple pi crochet fermé fin de style"},"status":"ok"}

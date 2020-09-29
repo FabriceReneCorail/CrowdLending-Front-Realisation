@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace s o m m e espace d e s espace s o l u t i o n s espace e s t espace z indice 1 plus z indice 2 égal à 2 cos ouvrir la parenthèse alpha fermer la parenthèse fin de style"},"status":"ok"}

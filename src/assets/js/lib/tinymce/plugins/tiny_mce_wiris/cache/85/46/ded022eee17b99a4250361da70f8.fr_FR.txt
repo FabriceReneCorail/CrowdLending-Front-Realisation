@@ -1,0 +1,1 @@
+{"result":{"text":"f espace e s t espace s t r i c t e m e n t espace espace d é c r o i s s a n t e espace s u r espace simple nombres réels."},"status":"ok"}

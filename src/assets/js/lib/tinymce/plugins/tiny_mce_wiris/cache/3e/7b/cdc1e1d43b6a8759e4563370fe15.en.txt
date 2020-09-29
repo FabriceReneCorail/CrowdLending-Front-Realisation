@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style 2 square root of 2 minus 2 i square root of 2 end style"},"status":"ok"}

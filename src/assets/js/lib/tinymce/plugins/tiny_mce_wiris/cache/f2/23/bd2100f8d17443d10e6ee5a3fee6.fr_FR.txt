@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S o i e n t espace l e s espace t r o i s espace n o m b r e s espace c o m p l e x e s deux points fin de style"},"status":"ok"}

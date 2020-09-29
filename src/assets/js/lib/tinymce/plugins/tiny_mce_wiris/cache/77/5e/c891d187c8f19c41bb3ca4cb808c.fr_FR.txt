@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px limite avec espace espace x flèche vers la droite plus infini de f parenthèse gauche x parenthèse droite égal à plus infini fin de style"},"status":"ok"}

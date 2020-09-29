@@ -1,0 +1,16 @@
+{
+    "accueil_h1": "Добро пожаловать в Lend Me, первый мультикультурный краудфандинговый сайт",
+
+    "user_profile_label_name": "Ваше имя",
+    "profil_user_firstname_label": "Ваше имя",
+    "profil_user_mail_label": "Ваш адрес электронной почты",
+    "profil_user_sexe_label": "Ваш пол",
+    "profil_user_mdp_label": "Ваш пароль",
+    "profil_user_img_label": "Изображение профиля",
+    "profil_user_span_text_label": "Изменить",
+
+    "profil_user_button_btnbtnprimarybtnblock": "Обновите свой профиль",
+    "profil_user_div_alertalertdanger": "Редактировать",
+
+    "profil_user_div_alertalertdanger_strong1": "Ошибка!"
+}

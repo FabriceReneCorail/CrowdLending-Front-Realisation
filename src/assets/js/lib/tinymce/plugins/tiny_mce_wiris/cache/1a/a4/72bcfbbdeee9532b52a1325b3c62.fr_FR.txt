@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L e espace c e r c l e espace d e espace d i a m è t r e espace crochet ouvert B D crochet fermé espace p r i v é espace d u espace p o i n t espace C fin de style"},"status":"ok"}

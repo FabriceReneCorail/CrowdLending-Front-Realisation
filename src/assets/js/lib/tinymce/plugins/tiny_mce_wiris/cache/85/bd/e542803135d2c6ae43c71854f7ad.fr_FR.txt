@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px limite avec x flèche vers la droite plus infini de numérateur de la fraction x plus 2 x au cube au-dessus du dénominateur x plus x au carré fin de la fraction espace espace e s t espace espace é g a l e espace deux points fin de style"},"status":"ok"}

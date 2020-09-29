@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px S i espace l a espace s u i t e espace u indice 0 appartient à crochet ouvert 0 virgule 6 crochet fermé virgule espace l a espace s u i t e espace U espace e s t espace c r o i s s a n t e. fin de style"},"status":"ok"}

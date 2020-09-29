@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace m é d i a t r i c e espace d u espace s e g m e n t espace crochet ouvert A B crochet fermé fin de style"},"status":"ok"}

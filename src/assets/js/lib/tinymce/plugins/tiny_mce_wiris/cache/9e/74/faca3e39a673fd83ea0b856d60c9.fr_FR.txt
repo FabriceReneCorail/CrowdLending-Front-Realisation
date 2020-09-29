@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px n égal à 6 k espace virgule espace k appartient à simple nombres entiers espace fin de style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace f o n c t i o n espace H espace e s t espace p o s i t i o n n é espace a u espace d e s s u s espace d e espace l apostrophe a x e espace d e s espace espace a b s c i s s e s. fin de style"},"status":"ok"}

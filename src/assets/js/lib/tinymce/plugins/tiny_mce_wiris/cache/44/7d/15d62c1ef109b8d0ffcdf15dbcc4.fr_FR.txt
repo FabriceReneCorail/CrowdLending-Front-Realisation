@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px U indice n égal à numérateur de la fraction n plus ouvrir la parenthèse moins 1 fermer la parenthèse puissance n racine carrée de n au-dessus du dénominateur 2 n plus 3 fin de la fraction. fin de style"},"status":"ok"}

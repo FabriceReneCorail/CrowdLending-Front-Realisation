@@ -1,0 +1,1 @@
+{"result":{"text":"3 x plus 3 égal à 261"},"status":"ok"}

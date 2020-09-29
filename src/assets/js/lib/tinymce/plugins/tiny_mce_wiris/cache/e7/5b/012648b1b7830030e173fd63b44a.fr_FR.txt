@@ -1,0 +1,1 @@
+{"result":{"text":"U indice 10 égal à U indice 9 croix de multiplication q\n18 égal à parenthèse gauche moins 6 parenthèse droite croix de multiplication q\nq égal à numérateur de la fraction 18 au-dessus du dénominateur parenthèse gauche moins 6 parenthèse droite fin de la fraction\nq égal à ouvrir la parenthèse moins 3 fermer la parenthèse"},"status":"ok"}

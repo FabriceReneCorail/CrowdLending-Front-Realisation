@@ -1,0 +1,1 @@
+{"result":{"text":"x plus parenthèse gauche x plus 1 parenthèse droite plus parenthèse gauche x plus 2 parenthèse droite égal à 261"},"status":"ok"}

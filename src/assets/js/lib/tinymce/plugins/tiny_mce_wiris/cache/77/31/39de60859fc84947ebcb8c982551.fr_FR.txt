@@ -1,0 +1,1 @@
+{"result":{"text":"2 puissance n plus 1 espace fin de l'exposant supérieur ou égal à 6 parenthèse gauche n plus 1 parenthèse droite espace plus 7"},"status":"ok"}

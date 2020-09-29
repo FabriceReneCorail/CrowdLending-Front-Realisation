@@ -1,0 +1,11 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: public_api.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+/** Public API */
+export { NgxPayPalModule } from './lib/ngx-paypal.module';
+export {} from './lib/models/paypal-models';
+export { NgxPaypalComponent } from './lib/components/paypal.component';
+export { PayPalScriptService } from './lib/services/paypal-script.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25neC1wYXlwYWwvIiwic291cmNlcyI6WyJwdWJsaWNfYXBpLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7OztBQUNBLGdDQUFjLHlCQUF5QixDQUFDO0FBQ3hDLGVBQWMsNEJBQTRCLENBQUM7QUFDM0MsbUNBQWMsbUNBQW1DLENBQUM7QUFDbEQsb0NBQWMsc0NBQXNDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKiogUHVibGljIEFQSSAqL1xyXG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZ3gtcGF5cGFsLm1vZHVsZSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vbGliL21vZGVscy9wYXlwYWwtbW9kZWxzJztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvY29tcG9uZW50cy9wYXlwYWwuY29tcG9uZW50JztcclxuZXhwb3J0ICogZnJvbSAnLi9saWIvc2VydmljZXMvcGF5cGFsLXNjcmlwdC5zZXJ2aWNlJztcclxuXHJcbiJdfQ==

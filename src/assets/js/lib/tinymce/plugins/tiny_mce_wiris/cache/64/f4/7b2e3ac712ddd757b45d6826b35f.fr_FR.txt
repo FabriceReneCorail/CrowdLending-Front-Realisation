@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px racine carrée de 3 e puissance i numérateur de la fraction 13 simple pi au-dessus du dénominateur 12 fin de la fraction fin de l'exposant fin de style"},"status":"ok"}

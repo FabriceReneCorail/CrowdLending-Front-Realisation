@@ -1,0 +1,1 @@
+{"result":{"text":"U indice n égal à U indice 2 plus parenthèse gauche n moins 2 parenthèse droite croix de multiplication r\nU indice 50 égal à 3 plus 48 croix de multiplication 0.2\nU indice 50 égal à 12.6"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px f espace e t espace g espace s o n t espace d e u x espace f o n c t i o n s espace s u r espace simple nombres réels virgule espace espace g espace n e espace s apostrophe a n n u l a n t espace p a s. fin de style"},"status":"ok"}

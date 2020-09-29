@@ -1,0 +1,1 @@
+{"result":{"text":"taille 20px lim avec taille 20px x taille 20px flèche vers la droite taille 20px plus taille 20px infini en dessous taille 20px f taille 20px parenthèse gauche taille 20px x taille 20px parenthèse droite taille 20px égal à taille 20px moins taille 20px infini"},"status":"ok"}

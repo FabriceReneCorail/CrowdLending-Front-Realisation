@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px 1 e r espace e t a p e espace deux points espace t r o u v e r espace l a espace f o r m e espace e x p o n e n t i e l l e espace d e espace z au carré fin de style"},"status":"ok"}

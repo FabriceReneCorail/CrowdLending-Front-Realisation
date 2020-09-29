@@ -1,0 +1,42 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+<app-nav-bar-accueil></app-nav-bar-accueil>
+
+<div class="container login-container">
+  <div class="row">
+    <div class="jumbotron my-4">
+      <h3>Connexion</h3>
+
+      <div class="alert alert-danger" *ngIf="isErreurLogin">
+        <strong>Erreur!</strong> identification
+      </div>
+
+      <form
+        class="form-horizontal"
+        #loginForm="ngForm"
+        (ngSubmit)="onFormSubmitLogin()"
+      >
+        <div class="form-group">
+          <input type="email" class="form-control"
+            placeholder="Email *" [(ngModel)]="ObjetLogin.emailLogin" name="emailLogin" required value="" />
+        </div>
+        <div class="form-group">
+          <input type="password" class="form-control" placeholder="Mot de passe *"
+            [(ngModel)]="ObjetLogin.passwordLogin" name="passwordLogin" required value="" />
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary" [disabled]="!loginForm.form.valid">Connexion</button>
+        </div>
+        <div class="form-group">
+          <a href="#" class="btnForgetPwd">Mot de passe oublié?</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="fixFooter">
+  <app-footer-accueil></app-footer-accueil>
+
+</div>

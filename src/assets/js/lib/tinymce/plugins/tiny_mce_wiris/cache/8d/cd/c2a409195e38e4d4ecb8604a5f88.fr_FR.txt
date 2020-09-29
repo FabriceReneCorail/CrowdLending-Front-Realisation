@@ -1,0 +1,1 @@
+{"result":{"text":"L a espace s u i t e espace ouvrir la parenthèse S indice n fermer la parenthèse espace espace e s t espace d i v e r g e n t e."},"status":"ok"}

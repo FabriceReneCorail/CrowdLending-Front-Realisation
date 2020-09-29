@@ -1,0 +1,16 @@
+{
+    "accueil_h1": "歡迎使用Lend Me，第一個多元文化眾籌網站",
+
+    "user_profile_label_name": "您的名字",
+    "profil_user_firstname_label": "您的名字",
+    "profil_user_mail_label": "您的電子郵件地址",
+    "profil_user_sexe_label": "您的性別",
+    "profil_user_mdp_label": "您的密碼",
+    "profil_user_img_label": "個人資料圖片",
+    "profil_user_span_text_label": "更改",
+
+    "profil_user_button_btnbtnprimarybtnblock": "更新您的個人資料",
+    "profil_user_div_alertalertdanger": "編輯",
+
+    "profil_user_div_alertalertdanger_strong1": "錯誤"
+}

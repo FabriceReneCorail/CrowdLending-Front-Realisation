@@ -1,0 +1,1 @@
+{"result":{"text":"z indice 1"},"status":"ok"}

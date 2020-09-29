@@ -1,0 +1,1 @@
+{"result":{"text":"intégrale indice 0 2 x d x"},"status":"ok"}

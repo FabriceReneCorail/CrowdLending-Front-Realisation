@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px calligraphique A parenthèse gauche H parenthèse droite égal à e puissance simple pi sur 2 fin de l'exposant fin de style"},"status":"ok"}

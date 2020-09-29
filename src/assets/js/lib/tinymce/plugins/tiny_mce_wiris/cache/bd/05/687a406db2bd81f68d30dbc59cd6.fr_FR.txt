@@ -1,0 +1,1 @@
+{"result":{"text":"O n espace d é f i n i e espace a l o r s espace l a espace s u i t e espace ouvrir la parenthèse V indice n fermer la parenthèse espace s u r espace espace V indice n égal à numérateur de la fraction moins 2 au-dessus du dénominateur U indice n fin de la fraction."},"status":"ok"}

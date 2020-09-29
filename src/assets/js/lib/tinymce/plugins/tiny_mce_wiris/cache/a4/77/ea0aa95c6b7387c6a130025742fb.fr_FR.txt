@@ -1,0 +1,1 @@
+{"result":{"text":"espace a v e c espace espace limite avec n flèche vers la droite plus infini de v indice n égal à 2 espace espace e t espace espace espace limite avec n flèche vers la droite plus infini de w indice n égal à 3 virgule espace espace a l o r s espace deux points"},"status":"ok"}

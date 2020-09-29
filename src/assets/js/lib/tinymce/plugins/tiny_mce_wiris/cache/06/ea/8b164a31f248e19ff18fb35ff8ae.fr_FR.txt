@@ -1,0 +1,1 @@
+{"result":{"text":"l j b g j e r n espace accolade ouverte tableau d'attributs aligné sur la left fin des attributs ligne cellule 2 x fin de cellule ligne blank fin de tableau fin"},"status":"ok"}

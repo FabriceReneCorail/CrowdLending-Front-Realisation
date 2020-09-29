@@ -1,0 +1,1 @@
+{"result":{"text":"racine carrée de 6"},"status":"ok"}

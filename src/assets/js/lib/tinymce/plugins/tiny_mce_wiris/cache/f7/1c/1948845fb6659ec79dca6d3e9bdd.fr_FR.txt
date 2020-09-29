@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px intégrale indice 1 exposant 2 numérateur de la fraction x au carré moins 2 x moins 2 moins 3 ln ouvrir la parenthèse x fermer la parenthèse au-dessus du dénominateur x fin de la fraction d x égal à ? fin de style"},"status":"ok"}

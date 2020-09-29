@@ -1,0 +1,1 @@
+{"result":{"text":"U indice 6 égal à U indice 0 croix de multiplication q puissance 6\n9 égal à U indice 0 croix de multiplication ouvrir la parenthèse moins 3 fermer la parenthèse puissance 6\nU indice 0 égal à 9 sur ouvrir la parenthèse moins 3 fermer la parenthèse puissance 6\nespace espace espace espace égal à 1 sur 81"},"status":"ok"}

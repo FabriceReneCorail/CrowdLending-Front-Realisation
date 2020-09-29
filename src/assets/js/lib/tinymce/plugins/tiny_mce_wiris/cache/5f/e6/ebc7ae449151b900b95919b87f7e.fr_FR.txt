@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px R e ouvrir la parenthèse z indice 1 fermer la parenthèse égal à R e ouvrir la parenthèse z indice 2 fermer la parenthèse fin de style"},"status":"ok"}

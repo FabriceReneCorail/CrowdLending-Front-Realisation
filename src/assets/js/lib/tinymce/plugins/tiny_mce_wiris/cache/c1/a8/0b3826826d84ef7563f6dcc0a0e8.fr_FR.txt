@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px f espace e s t espace d é f i n i e espace s u r espace simple nombres réels espace espace p a r espace espace f parenthèse gauche x parenthèse droite égal à 2 x moins début de racine carrée de x au carré plus 1 fin de racine fin de style"},"status":"ok"}

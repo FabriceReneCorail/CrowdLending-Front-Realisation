@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px M indice 1 espace espace e t espace M indice 2 espace l e s espace p o i n t s espace d u espace p l a n espace c o m p l e x e s espace a y a n t espace r e s p e c t i v e m e n t espace p o u r espace espace a f f i x e espace z indice 1 espace e t espace z indice 2 fin de style"},"status":"ok"}

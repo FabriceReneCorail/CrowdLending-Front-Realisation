@@ -1,0 +1,1 @@
+{"result":{"text":"size 20px lim with size 20px x size 20px rightwards arrow size 20px plus size 20px infinity below size 20px f size 20px left parenthesis size 20px x size 20px right parenthesis size 20px equals size 20px minus size 20px infinity"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"racine carrée de 5 espace espace j h d b espace f v j k espace d f espace espace espace espace k j b v j k b r b v e k q g r espace n n d t y"},"status":"ok"}

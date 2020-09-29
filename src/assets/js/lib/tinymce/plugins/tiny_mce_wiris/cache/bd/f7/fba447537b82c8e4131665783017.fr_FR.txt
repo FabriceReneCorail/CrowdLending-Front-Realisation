@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace u indice n égal à numérateur de la fraction n plus 3 au-dessus du dénominateur 3 racine carrée de n plus 5 fin de la fraction espace espace a l o r s espace espace deux points fin de style"},"status":"ok"}

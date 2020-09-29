@@ -1,0 +1,1 @@
+{"result":{"text":"trait vertical ouvert(e) z indice 1 trait vertical fermé(e) égal à trait vertical ouvert(e) z indice 2 trait vertical fermé(e) égal à numérateur de la fraction racine carrée de 4 au-dessus du dénominateur 3 fin de la fraction"},"status":"ok"}

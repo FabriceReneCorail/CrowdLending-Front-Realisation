@@ -1,0 +1,30 @@
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/ngx-paypal.module.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
+import { NgxPaypalComponent } from './components/paypal.component';
+import { ScriptService } from './services/script.service';
+import { PayPalScriptService } from './services/paypal-script.service';
+export class NgxPayPalModule {
+}
+NgxPayPalModule.decorators = [
+    { type: NgModule, args: [{
+                imports: [
+                    CommonModule
+                ],
+                declarations: [
+                    NgxPaypalComponent,
+                ],
+                exports: [
+                    NgxPaypalComponent,
+                ],
+                providers: [
+                    ScriptService,
+                    PayPalScriptService
+                ]
+            },] }
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd4LXBheXBhbC5tb2R1bGUuanMiLCJzb3VyY2VSb290Ijoibmc6Ly9uZ3gtcGF5cGFsLyIsInNvdXJjZXMiOlsibGliL25neC1wYXlwYWwubW9kdWxlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsT0FBTyxFQUFFLFlBQVksRUFBRSxNQUFNLGlCQUFpQixDQUFDO0FBQy9DLE9BQU8sRUFBRSxRQUFRLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFFekMsT0FBTyxFQUFFLGtCQUFrQixFQUFFLE1BQU0sK0JBQStCLENBQUM7QUFDbkUsT0FBTyxFQUFFLGFBQWEsRUFBRSxNQUFNLDJCQUEyQixDQUFDO0FBQzFELE9BQU8sRUFBRSxtQkFBbUIsRUFBRSxNQUFNLGtDQUFrQyxDQUFDO0FBaUJ2RSxNQUFNLE9BQU8sZUFBZTs7O1lBZjNCLFFBQVEsU0FBQztnQkFDUixPQUFPLEVBQUU7b0JBQ1AsWUFBWTtpQkFDYjtnQkFDRCxZQUFZLEVBQUU7b0JBQ1osa0JBQWtCO2lCQUNuQjtnQkFDRCxPQUFPLEVBQUU7b0JBQ1Asa0JBQWtCO2lCQUNuQjtnQkFDRCxTQUFTLEVBQUU7b0JBQ1QsYUFBYTtvQkFDYixtQkFBbUI7aUJBQ3BCO2FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBDb21tb25Nb2R1bGUgfSBmcm9tICdAYW5ndWxhci9jb21tb24nO1xyXG5pbXBvcnQgeyBOZ01vZHVsZSB9IGZyb20gJ0Bhbmd1bGFyL2NvcmUnO1xyXG5cclxuaW1wb3J0IHsgTmd4UGF5cGFsQ29tcG9uZW50IH0gZnJvbSAnLi9jb21wb25lbnRzL3BheXBhbC5jb21wb25lbnQnO1xyXG5pbXBvcnQgeyBTY3JpcHRTZXJ2aWNlIH0gZnJvbSAnLi9zZXJ2aWNlcy9zY3JpcHQuc2VydmljZSc7XHJcbmltcG9ydCB7IFBheVBhbFNjcmlwdFNlcnZpY2UgfSBmcm9tICcuL3NlcnZpY2VzL3BheXBhbC1zY3JpcHQuc2VydmljZSc7XHJcblxyXG5ATmdNb2R1bGUoe1xyXG4gIGltcG9ydHM6IFtcclxuICAgIENvbW1vbk1vZHVsZVxyXG4gIF0sXHJcbiAgZGVjbGFyYXRpb25zOiBbXHJcbiAgICBOZ3hQYXlwYWxDb21wb25lbnQsXHJcbiAgXSxcclxuICBleHBvcnRzOiBbXHJcbiAgICBOZ3hQYXlwYWxDb21wb25lbnQsXHJcbiAgXSxcclxuICBwcm92aWRlcnM6IFtcclxuICAgIFNjcmlwdFNlcnZpY2UsXHJcbiAgICBQYXlQYWxTY3JpcHRTZXJ2aWNlXHJcbiAgXVxyXG59KVxyXG5leHBvcnQgY2xhc3MgTmd4UGF5UGFsTW9kdWxlIHtcclxufVxyXG5cclxuXHJcbiJdfQ==

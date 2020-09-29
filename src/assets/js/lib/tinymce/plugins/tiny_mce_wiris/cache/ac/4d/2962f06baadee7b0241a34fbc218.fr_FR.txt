@@ -1,0 +1,1 @@
+{"result":{"text":"parenthèse gauche x moins 4 parenthèse droite au carré moins 20 moins 16 égal à 0\nparenthèse gauche x moins 4 parenthèse droite au carré égal à 36"},"status":"ok"}

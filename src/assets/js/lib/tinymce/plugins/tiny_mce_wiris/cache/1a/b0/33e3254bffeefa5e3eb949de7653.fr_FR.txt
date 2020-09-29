@@ -1,0 +1,1 @@
+{"result":{"text":"S égal à accolade ouverte 11 sur 6 accolade fermée"},"status":"ok"}

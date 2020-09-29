@@ -1,0 +1,1 @@
+{"result":{"text":"S égal à accolade ouverte ensemble vide accolade fermée"},"status":"ok"}

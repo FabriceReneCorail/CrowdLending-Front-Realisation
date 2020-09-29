@@ -1,0 +1,1303 @@
+<ngx-ui-loader></ngx-ui-loader>
+
+<body id="page-top">
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <app-side-bar-left-user-templates
+      *ngIf="infosUser.typeCompte == 'user'"
+    ></app-side-bar-left-user-templates>
+
+    <app-side-bar-left-admin-templates
+      *ngIf="infosUser.typeCompte == 'admin'"
+    ></app-side-bar-left-admin-templates>
+
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar  start Nav -->
+
+        <app-nav-admin-templates
+          *ngIf="infosUser.typeCompte == 'admin'"
+        ></app-nav-admin-templates>
+
+        <app-nav-user-templates
+          *ngIf="infosUser.typeCompte == 'user'"
+        ></app-nav-user-templates>
+
+        <!-- End of Topbar end Nav -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+          <div class="row">
+            <ngb-tabset [destroyOnHide]="false">
+              <ngb-tab title="Fiche information de projet">
+                <ng-template ngbTabContent>
+                  <div class="row" style="margin-top: 5%">
+                    <div class="col-lg-12">
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card border-left-primary">
+                          <div class="card-body">
+                            <img
+                              mat-card-image
+                              [src]="
+                                ObjetProjectTemplate.project.afficheProject
+                              "
+                              alt=""
+                              style="
+                                text-align: center;
+                                margin-left: 10%;
+                                width: 50%;
+                                height: 50%;
+                              "
+                            />
+
+                            <table style="margin-left: 25%">
+                              <tr>
+                                <td width="10%">
+                                  <img
+                                    class="card-img-top"
+                                    src="./assets/img/heart-icon.png"
+                                    alt=""
+                                    style="width: 35px; height: 35px"
+                                  />
+
+                                  <span>{{
+                                    ObjetProjectTemplate.project.total_hearts
+                                  }}</span>
+                                </td>
+
+                                <td width="30%" style="text-align: center">
+                                  <img
+                                    class="card-img-top"
+                                    src="./assets/img/like_ico.png"
+                                    alt=""
+                                    style="width: 35px; height: 35px"
+                                  />
+
+                                  <span>{{
+                                    ObjetProjectTemplate.project.total_like
+                                  }}</span>
+                                </td>
+
+                                <td width="20%">
+                                  <img
+                                    class="card-img-top"
+                                    src="./assets/img/dislike_ico.png"
+                                    alt=""
+                                    style="width: 35px; height: 35px"
+                                  />
+
+                                  <span>{{
+                                    ObjetProjectTemplate.project.total_dislike
+                                  }}</span>
+                                </td>
+
+                                <td width="20%">
+                                  <img
+                                    class="card-img-top"
+                                    src="./assets/img/eye_ico.png"
+                                    alt=""
+                                    style="width: 38px; height: 35px"
+                                  />
+
+                                  <span>{{
+                                    ObjetProjectTemplate.project.total_vues
+                                  }}</span>
+                                </td>
+
+                                <td width="20%">
+                                  <img
+                                    class="card-img-top"
+                                    src="./assets/img/picto-dons-300x300.png"
+                                    alt=""
+                                    style="width: 38px; height: 35px"
+                                  />
+
+                                  <span
+                                    >{{
+                                      ObjetProjectTemplate.project.total_fonds
+                                    }}
+                                    &euro;</span
+                                  >
+                                </td>
+                              </tr>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Nom projet :
+                              {{ ObjetProjectTemplate.project.nom }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Description :
+                              {{ ObjetProjectTemplate.project.description }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Porteur du projet :
+                              {{
+                                ObjetProjectTemplate.project._porte_project.nom
+                              }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              montant minimun de collecte :
+                              {{ ObjetProjectTemplate.project.montant_minimun }}
+                              euros
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Date limite de collecte :
+                              {{
+                                ObjetProjectTemplate.project
+                                  .date_limite_collecte
+                              }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Total des fonds collectés :
+                              {{
+                                ObjetProjectTemplate.project.total_fonds
+                              }}&euro;
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Contre partie de project :
+                              {{
+                                ObjetProjectTemplate.project.contrePartieProject
+                              }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Categorie de project :
+                              {{
+                                ObjetProjectTemplate.project.categoryProject.nom
+                              }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12" style="margin-top: 5%">
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <h3>
+                              Statut project :
+                              {{
+                                ObjetProjectTemplate.project._statut_project.nom
+                              }}
+                            </h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab>
+                <ng-template ngbTabTitle>Contact</ng-template>
+
+                <ng-template ngbTabContent>
+                  <div
+                    class="row"
+                    style="margin-top: 5%; margin-left: 5%"
+                    *ngFor="
+                      let objectAdresse of arrayAdressReseauxSociauxProject;
+                      let i = index
+                    "
+                  >
+                    <div class="col-lg-12" style="margin-top: 5%">
+                      <div class="card mb-12 py-12 border-left-primary">
+                        <div class="card-body">
+                          <table>
+                            <tr>
+                              <td>
+                                <h3
+                                  *ngIf="objectAdresse.keyMedia === 'num_tel'"
+                                >
+                                  <img
+                                    src="./assets/img/tel_ico.png"
+                                    style="width: 30px"
+                                  />
+                                  {{ objectAdresse.valueMedia }} :
+                                </h3>
+
+                                <h3
+                                  *ngIf="
+                                    objectAdresse.keyMedia === 'link_facbook'
+                                  "
+                                >
+                                  <img
+                                    src="./assets/img/facebook_ico.png"
+                                    style="width: 40px"
+                                  />{{ objectAdresse.valueMedia }} :
+                                </h3>
+
+                                <h3
+                                  *ngIf="
+                                    objectAdresse.keyMedia === 'site_internet'
+                                  "
+                                >
+                                  <img
+                                    src="./assets/img/site_web_ico.png"
+                                    style="width: 40px"
+                                  />{{ objectAdresse.valueMedia }} :
+                                </h3>
+
+                                <h3
+                                  *ngIf="
+                                    objectAdresse.keyMedia === 'link_youtube'
+                                  "
+                                >
+                                  <img
+                                    src="./assets/img/youtube_ico.png"
+                                    style="width: 40px"
+                                  />{{ objectAdresse.valueMedia }} :
+                                </h3>
+
+                                <h3
+                                  *ngIf="
+                                    objectAdresse.keyMedia ===
+                                    'link_google_plus'
+                                  "
+                                >
+                                  <img
+                                    src="./assets/img/google_ico.png"
+                                    style="width: 40px"
+                                  />{{ objectAdresse.valueMedia }} :
+                                </h3>
+
+                                <h3
+                                  *ngIf="
+                                    objectAdresse.keyMedia === 'link_twitter'
+                                  "
+                                >
+                                  <img
+                                    src="./assets/img/twitter_ico.png"
+                                    style="width: 40px"
+                                  />{{ objectAdresse.valueMedia }} :
+                                </h3>
+                              </td>
+                              <td>
+                                <h3>{{ objectAdresse.linkProject }}</h3>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab>
+                <ng-template ngbTabTitle
+                  >Questions & Réponses/Manager</ng-template
+                >
+
+                <ng-template ngbTabContent>
+                  <div class="comments" style="margin-top: 5%; margin-left: 5%">
+                    <div class="comment-wrap">
+                      <div class="photo">
+                        <div class="avatar">
+                          <img
+                            class="img-profile rounded-circle"
+                            style="width: 50px"
+                            [src]="infosUser.photoUser"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-block">
+                        <form
+                          action=""
+                          #questionFormForManager="ngForm"
+                          (ngSubmit)="onFormSubmitQuestionForManager()"
+                        >
+                          <textarea
+                            name=""
+                            id=""
+                            cols="60"
+                            rows="3"
+                            placeholder="Rédiger votre question..."
+                            [(ngModel)]="
+                              objectQuestionRepProjectByUserForAdminModel.bodyAide
+                            "
+                            name="questionManager"
+                          ></textarea>
+
+                          <div class="form-group" style="margin-top: 5%">
+                            <button
+                              type="submit"
+                              class="btn btn-primary"
+                              [disabled]="!questionFormForManager.form.valid"
+                            >
+                              Envoyer
+                            </button>
+                          </div>
+
+                          <!-- <editor  apiKey="qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc"    class="mat-elevation-z1"     (onInit)="handleEditorInit($event)"   [init]="{  icons: 'material', skin: 'borderless', plugins: 'wordcount', menubar: false, min_height: 150  }"  ></editor>-->
+                        </form>
+                      </div>
+                    </div>
+
+                    <div
+                      class="comment-wrap"
+                      *ngFor="
+                        let objectquestionManager of listQuestionsAidesByUserByAdmin;
+                        let i = index
+                      "
+                    >
+                      <div class="photo">
+                        <div class="avatar">
+                          <img
+                            class="img-profile rounded-circle"
+                            style="width: 50px"
+                            *ngIf="objectquestionManager._userAdminExp"
+                            [src]="
+                              ObjetProjectTemplate.project.manager_project
+                                .photoUser
+                            "
+                          />
+                          <!--admin-->
+
+                          <img
+                            class="img-profile rounded-circle"
+                            style="width: 50px"
+                            *ngIf="objectquestionManager._userProjectExp"
+                            [src]="infosUser.photoUser"
+                          />
+                          <!--utilisateur-->
+                        </div>
+                      </div>
+                      <div class="comment-block">
+                        <p class="comment-text">
+                          {{ objectquestionManager.bodyAide }}
+                        </p>
+                        <div class="bottom-comment">
+                          <div class="comment-date">
+                            {{ objectquestionManager.dateCreated }}
+                          </div>
+                          <br />
+
+                          <span
+                            style="font-weight: bold"
+                            *ngIf="objectquestionManager._userAdminExp"
+                          >
+                            {{ objectquestionManager._userAdminExp.nom }}.{{
+                              objectquestionManager._userAdminExp.prenom
+                            }}
+                          </span>
+                          <!--admin-->
+
+                          <span
+                            style="font-weight: bold"
+                            *ngIf="objectquestionManager._userProjectExp"
+                            >{{ infosUser.nom }}.{{ infosUser.prenom }}
+                          </span>
+                          <!--utilisateur-->
+
+                          <!--    <ul class="comment-actions">
+                          <li class="complain">Complain</li>
+                            <li class="reply">Reply</li>
+                          </ul>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab *ngIf="ObjetProjectTemplate.project.manager_project">
+                <ng-template ngbTabTitle>Les investisseurs/Fonds</ng-template>
+
+                <ng-template ngbTabContent>
+                  <h3 *ngIf="listInvestor.length > 0">LES INVESTISSEURS</h3>
+                  <table
+                    class="table table-striped"
+                    style="margin-top: 10%; margin-left: 10%; width: 100%"
+                    *ngIf="listInvestor.length > 0"
+                  >
+                    <thead>
+                      <tr>
+                        <th scope="col">Photos</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Statut</th>
+                        <th scope="col">Action</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let ObjectInvestor of listInvestor">
+                        <td scope="row">
+                          <img
+                            [src]="ObjectInvestor._userProjectInvest.photoUser"
+                            class="mr-2"
+                            style="width: 20px"
+                          />
+                        </td>
+
+                        <td>
+                          {{ ObjectInvestor._userProjectInvest.nom }}.{{
+                            ObjectInvestor._userProjectInvest.prenom
+                          }}
+                        </td>
+
+                        <td>
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg btn-block"
+                            *ngIf="ObjectInvestor.statutDemande == 'ATTENTE'"
+                          >
+                            En attente
+                          </button>
+
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg btn-block"
+                            *ngIf="ObjectInvestor.statutDemande == 'VALIDE'"
+                          >
+                            Validé
+                          </button>
+
+                          <button
+                            type="button"
+                            class="btn btn-primary btn-lg btn-block"
+                            *ngIf="ObjectInvestor.statutDemande == 'ANNULE'"
+                          >
+                            Annulé
+                          </button>
+                        </td>
+
+                        <td>
+                          <button
+                            type="button"
+                            class="btn btn-success btn-lg btn-block"
+                            *ngIf="ObjectInvestor.statutDemande == 'ATTENTE'"
+                            (click)="confDemandeInvest(ObjectInvestor)"
+                          >
+                            Accepter la demande
+                          </button>
+
+                          <button
+                            type="button"
+                            class="btn btn-danger btn-lg btn-block"
+                            *ngIf="ObjectInvestor.statutDemande == 'ATTENTE'"
+                            (click)="declinerDemandeInvest(ObjectInvestor)"
+                          >
+                            Décliner la demande
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <div
+                    class="d-flex justify-content-between p-2"
+                    *ngIf="listInvestor.length > 0"
+                  >
+                    <ngb-pagination
+                      [collectionSize]="collectionSize"
+                      [(page)]="page"
+                      [pageSize]="pageSize"
+                    >
+                    </ngb-pagination>
+
+                    <select
+                      class="custom-select"
+                      style="width: auto"
+                      [(ngModel)]="pageSize"
+                    >
+                      <option [ngValue]="2">2 items per page</option>
+                      <option [ngValue]="4">4 items per page</option>
+                      <option [ngValue]="6">6 items per page</option>
+                    </select>
+                  </div>
+
+                  <!-------------------------------------------------------------------------------------------->
+
+                  <hr *ngIf="listFonsInvest.length > 0" />
+
+                  <h3 *ngIf="listFonsInvest.length > 0">LES FONDS COLLECTES</h3>
+
+                  <table
+                    class="table table-striped"
+                    style="margin-top: 10%; margin-left: 10%; width: 100%"
+                    *ngIf="listFonsInvest.length > 0"
+                  >
+                    <thead>
+                      <tr>
+                        <th scope="col">Date operation</th>
+                        <th scope="col">Photo</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Montant</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr *ngFor="let ObjectFondInvestor of listFonsInvest">
+                        <td>
+                          {{
+                            ObjectFondInvestor._investisseurProject.date_created
+                          }}
+                        </td>
+
+                        <td scope="row">
+                          <img
+                            [src]="
+                              ObjectFondInvestor._investisseurProject
+                                ._userProjectInvest.photoUser
+                            "
+                            class="mr-2"
+                            style="width: 20px"
+                            alt=""
+                          />
+                        </td>
+
+                        <td>
+                          {{
+                            ObjectFondInvestor._investisseurProject
+                              ._userProjectInvest.nom
+                          }}.{{
+                            ObjectFondInvestor._investisseurProject
+                              ._userProjectInvest.prenom
+                          }}
+                        </td>
+
+                        <td>{{ ObjectFondInvestor.amount }}&euro;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <div
+                    class="d-flex justify-content-between p-2"
+                    *ngIf="listFonsInvest.length > 0"
+                  >
+                    <ngb-pagination
+                      [collectionSize]="collectionSizeBis"
+                      [(page)]="pageBis"
+                      [pageSize]="pageSizeBis"
+                    >
+                    </ngb-pagination>
+
+                    <select
+                      class="custom-select"
+                      style="width: auto"
+                      [(ngModel)]="pageSizeBis"
+                    >
+                      <option [ngValue]="2">2 items per page</option>
+                      <option [ngValue]="4">4 items per page</option>
+                      <option [ngValue]="6">6 items per page</option>
+                    </select>
+                  </div>
+
+                  <!-------------------------------------------------------------------------------------------------------->
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab *ngIf="ObjetProjectTemplate.project.manager_project">
+                <ng-template ngbTabTitle
+                  >Questions & Réponses/Investiteurs</ng-template
+                >
+
+                <ng-template ngbTabContent>
+                  <div class="comments" style="margin-top: 5%; margin-left: 5%">
+                    <div class="comment-wrap" *ngIf="showTextera">
+                      <div class="photo">
+                        <div class="avatar">
+                          <img
+                            class="img-profile rounded-circle"
+                            style="width: 50px"
+                            [src]="infosUser.photoUser"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-block">
+                        <form
+                          action=""
+                          #questionFormForUser="ngForm"
+                          (ngSubmit)="onFormSubmitQuestionForUser()"
+                        >
+                          <textarea
+                            name=""
+                            id=""
+                            cols="60"
+                            rows="3"
+                            placeholder="Rédiger votre question..."
+                            [(ngModel)]="
+                              objectQuestionRepProjectByUserForUserModel.bodyAide
+                            "
+                            name="questionUser"
+                          ></textarea>
+
+                          <div class="form-group" style="margin-top: 5%">
+                            <button
+                              type="submit"
+                              class="btn btn-primary"
+                              [disabled]="!questionFormForUser.form.valid"
+                            >
+                              Envoyer
+                            </button>
+                          </div>
+
+                          <!-- <editor  apiKey="qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc"    class="mat-elevation-z1"     (onInit)="handleEditorInit($event)"   [init]="{  icons: 'material', skin: 'borderless', plugins: 'wordcount', menubar: false, min_height: 150  }"  ></editor>-->
+                        </form>
+                      </div>
+                    </div>
+
+                    <div
+                      class="comment-wrap"
+                      *ngFor="
+                        let objectquestionUser of listQuestionsAidesByUserForUser;
+                        let i = index
+                      "
+                    >
+                      <div class="photo">
+                        <img
+                          class="img-profile rounded-circle"
+                          style="width: 50px"
+                          *ngIf="objectquestionUser._userExp"
+                          [src]="objectquestionUser._userExp.photoUser"
+                        />
+                        <!--admin-->
+                      </div>
+                      <div class="comment-block">
+                        <p class="comment-text">
+                          {{ objectquestionUser.bodyAide }}
+                        </p>
+                        <div class="bottom-comment">
+                          <div class="comment-date">
+                            {{ objectquestionUser.dateCreated }}
+                          </div>
+                          <br />
+
+                          <span
+                            style="font-weight: bold"
+                            *ngIf="objectquestionUser._userExp"
+                          >
+                            {{ objectquestionUser._userExp.nom }}.{{
+                              objectquestionUser._userExp.prenom
+                            }}
+                          </span>
+                          <!--admin-->
+
+                          <ul
+                            class="comment-actions"
+                            *ngIf="
+                              objectquestionUser._userExp.token !=
+                              infosUser.token
+                            "
+                          >
+                            <!--<li class="complain">Complain</li>-->
+                            <li
+                              class="reply"
+                              (click)="
+                                replyByPorteurProjectForInvestFor(
+                                  objectquestionUser._userExp
+                                )
+                              "
+                            >
+                              Répondre
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab *ngIf="ObjetProjectTemplate.project.manager_project">
+                <ng-template ngbTabTitle>Les commentaires</ng-template>
+
+                <ng-template ngbTabContent>
+                  <div class="comments" style="margin-top: 5%; margin-left: 5%">
+                    <div class="comment-wrap">
+                      <div class="photo">
+                        <!--  <div class="avatar"   style="background-image: url('{{infosUser.photoUser }}')"> </div>-->
+                        <div class="avatar">
+                          <img
+                            class="img-profile rounded-circle"
+                            style="width: 50px"
+                            [src]="infosUser.photoUser"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-block">
+                        <form
+                          action=""
+                          #commentForm="ngForm"
+                          (ngSubmit)="onFormSubmitComment()"
+                        >
+                          <textarea
+                            name=""
+                            id=""
+                            cols="60"
+                            rows="3"
+                            placeholder="Rédiger votre commentaire..."
+                            [(ngModel)]="ObjetComment.bodyComment"
+                            name="comment"
+                          ></textarea>
+
+                          <div class="form-group" style="margin-top: 5%">
+                            <button
+                              type="submit"
+                              class="btn btn-primary"
+                              [disabled]="!commentForm.form.valid"
+                            >
+                              Envoyer
+                            </button>
+                          </div>
+
+                          <!-- <editor  apiKey="qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc"    class="mat-elevation-z1"     (onInit)="handleEditorInit($event)"   [init]="{  icons: 'material', skin: 'borderless', plugins: 'wordcount', menubar: false, min_height: 150  }"  ></editor>-->
+                        </form>
+                      </div>
+                    </div>
+
+                    <div
+                      class="comment-wrap"
+                      *ngFor="
+                        let objectComment of listCommentsForProject;
+                        let i = index
+                      "
+                    >
+                      <div class="photo">
+                        <div class="avatar">
+                          <img
+                            class="img-profile rounded-circle"
+                            style="width: 50px"
+                            [src]="objectComment._user.photoUser"
+                          />
+                        </div>
+                      </div>
+                      <div class="comment-block">
+                        <p class="comment-text">
+                          {{ objectComment.bodyComment }}
+                        </p>
+                        <div class="bottom-comment">
+                          <div class="comment-date">
+                            {{ objectComment.dateCreated }}
+                          </div>
+                          <br />
+
+                          <span style="font-weight: bold"
+                            >{{ objectComment._user.nom }}.{{
+                              objectComment._user.prenom
+                            }}
+                          </span>
+                          <!--    <ul class="comment-actions">
+                <li class="complain">Complain</li>
+                  <li class="reply">Reply</li>
+                </ul>-->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab>
+                <ng-template ngbTabTitle>Les news de projet</ng-template>
+
+                <ng-template ngbTabContent>
+                  <div class="row" style="margin-top: 2%; margin-left: 5%">
+                    <form
+                      [formGroup]="addNewsProjectForm"
+                      (ngSubmit)="onFormSubmitAddNewsProject()"
+                    >
+                      <div class="row">
+                        <!---------------------------------------------------------------------->
+                        <div class="col-lg-8">
+                          <div class="card mb-12 border-left-primary">
+                            <div class="card-body">
+                              <div class="form-group">
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  [(ngModel)]="ObjetNewsProject.titre"
+                                  formControlName="titreNews"
+                                  [ngClass]="{
+                                    'is-invalid':
+                                      submitted && f.titreNews.errors
+                                  }"
+                                  placeholder="Veuillez saisir le titre  *"
+                                />
+                                <div
+                                  *ngIf="submitted && f.titreNews.errors"
+                                  class="invalid-feedback"
+                                >
+                                  <div *ngIf="f.titreNews.errors.required">
+                                    Le champ titre est important !!!
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!---------------------------------------------------------------------->
+                        <div class="col-lg-8" style="margin-top: 2%">
+                          <div class="card border-left-primary">
+                            <div class="card-body">
+                              <div class="form-group">
+                                <div
+                                  [froalaEditor]="options"
+                                  [(froalaModel)]="ObjetNewsProject.description"
+                                  formControlName="descriptionNews"
+                                  [ngClass]="{
+                                    'is-invalid':
+                                      submitted && f.descriptionNews.errors
+                                  }"
+                                ></div>
+
+                                <div
+                                  *ngIf="submitted && f.descriptionNews.errors"
+                                  style="font-size: 80%; color: #e74a3b"
+                                >
+                                  <div
+                                    *ngIf="f.descriptionNews.errors.required"
+                                  >
+                                    Le champ description est important !!!
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!---------------------------------------------------------------------->
+
+                        <div class="col-lg-8" style="margin-top: 2%">
+                          <div class="card mb-4 py-3 border-left-primary">
+                            <div class="card-body">
+                              <mat-card class="add-photo-card">
+                                <mat-card-header>
+                                  <mat-card-title
+                                    >Affiche principale de News</mat-card-title
+                                  >
+                                </mat-card-header>
+
+                                <div class="row">
+                                  <h5>
+                                    Veuillez télécharger l'affiche principale de
+                                    news
+                                  </h5>
+                                  <br /><br />
+
+                                  <div
+                                    class="col-lg-4 mb-4"
+                                    style="margin-top: 10%"
+                                  >
+                                    <img
+                                      mat-card-image
+                                      [src]="srcImageNews"
+                                      alt=""
+                                    />
+                                  </div>
+                                </div>
+
+                                <div>
+                                  <table>
+                                    <tr>
+                                      <td>
+                                        <input
+                                          #imageAfficheNewsInput
+                                          type="file"
+                                          (change)="
+                                            imageNewsInputChange(
+                                              imageAfficheNewsInput
+                                            )
+                                          "
+                                          accept="image/*"
+                                        />
+                                      </td>
+                                    </tr>
+                                    <tr></tr>
+                                  </table>
+                                </div>
+                              </mat-card>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!---------------------------------------------------------------------->
+
+                        <div class="control-group form-group">
+                          <div #recaptcha></div>
+                        </div>
+
+                        <div class="alert alert-danger" *ngIf="isErreurCaptcha">
+                          <strong>Erreur!</strong> Veuillez valider votre
+                          captcha
+                        </div>
+
+                        <!---------------------------------------------------------------------->
+                        <div class="col-lg-8" style="margin-top: 2%">
+                          <div
+                            class="text-center"
+                            style="margin-top: 2%; margin-left: 5%"
+                          >
+                            <button class="btn btn-primary btn-lg btn-block">
+                              Enregistrer
+                            </button>
+                          </div>
+                        </div>
+                        <!---------------------------------------------------------------------->
+                      </div>
+                    </form>
+
+                    <!---------------------------------------------------------------------->
+
+                    <div class="col-lg-8" style="margin-top: 5%">
+                      <h3>Les news de projet</h3>
+                      <ul class="list-group">
+                        <li
+                          class="list-group-item"
+                          *ngFor="
+                            let objectNews of listNewsProject;
+                            let i = index
+                          "
+                        >
+                          <div class="row">
+                            <div class="col-lg-2 col-xs-2 col-md-1">
+                              <img
+                                [src]="objectNews.photos"
+                                class="img-circle img-responsive"
+                                style="width: 100%"
+                                alt=""
+                              />
+                            </div>
+                            <div class="col-lg-10 col-xs-10 col-md-11">
+                              <div>
+                                <a href="#">{{ objectNews.titre }} </a>
+                                <div class="mic-info">
+                                  {{ objectNews.date_created }}
+                                </div>
+                              </div>
+                              <div class="comment-text">
+                                {{ objectNews.description }}
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <!---------------------------------------------------------------------->
+                  </div>
+                </ng-template>
+              </ngb-tab>
+
+              <ngb-tab>
+                <ng-template ngbTabTitle>Les statistiques</ng-template>
+
+                <ng-template ngbTabContent>
+                  <div class="row">
+                    <!---------------------------------------------------------------------->
+
+                    <div class="row">
+                      <div
+                        class="col-lg-12"
+                        style="margin-top: 5%; margin-left: 5%"
+                      >
+                        <div class="card border-left-primary">
+                          <div class="card-body">
+                            <div class="form-group">
+                              <select
+                                class="form-control"
+                                (change)="
+                                  onChangeTypeStatistique($event.target.value)
+                                "
+                              >
+                                <option value="">
+                                  Selectionner type de statistique *
+                                </option>
+
+                                <option value="month">
+                                  Des statistiques mensuelles
+                                </option>
+
+                                <option value="day">
+                                  Des statistiques journaliere
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div
+                        class="col-lg-12"
+                        style="margin-top: 5%; margin-left: 5%"
+                        *ngIf="isShowFormSelectDays"
+                      >
+                        <div class="card mb-12 py-12 border-left-primary">
+                          <div class="card-body">
+                            <div class="form-group">
+                              <select
+                                class="form-control"
+                                [(ngModel)]="ObjetOptionStatMonth.year"
+                              >
+                                <option value="">
+                                  Selectionner votre année *
+                                </option>
+
+                                <option
+                                  [value]="annee"
+                                  *ngFor="
+                                    let annee of listYearProject;
+                                    let i = index
+                                  "
+                                >
+                                  {{ annee }}
+                                </option>
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          class="col-lg-12"
+                          style="margin-top: 5%; margin-left: 5%"
+                          *ngIf="isShowFormSelectDays"
+                        >
+                          <div class="card mb-12 py-12 border-left-primary">
+                            <div class="card-body">
+                              <div class="form-group">
+                                <dp-date-picker
+                                  placeholder="Mois"
+                                  [mode]="'month'"
+                                  [(ngModel)]="ObjetOptionStatMonth.month"
+                                  (onSelect)="onSelectMonthStatisMonth($event)"
+                                  required="true"
+                                  [config]="datePickerConfigBis"
+                                ></dp-date-picker>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!---------------------------------------------------------------------->
+                  </div>
+
+                  <div id="statis_mens" *ngIf="isShowChartsMens">
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataHearts"
+                        [labels]="barChartLabelsHearts"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataVues"
+                        [labels]="barChartLabelsVues"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataLikes"
+                        [labels]="barChartLabelsLikes"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataDislikes"
+                        [labels]="barChartLabelsDislikes"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+                  </div>
+
+                  <div id="statis_day" *ngIf="isShowChartsDays">
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataDaysHearts"
+                        [labels]="barChartLabelsDaysHearts"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataDaysVues"
+                        [labels]="barChartLabelsDaysVues"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataDaysLikes"
+                        [labels]="barChartLabelsDaysLikes"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+
+                    <div class="chart-wrapper">
+                      <canvas
+                        baseChart
+                        [datasets]="barChartDataDaysDislikes"
+                        [labels]="barChartLabelsDaysDislikes"
+                        [options]="barChartOptions"
+                        [plugins]="barChartPlugins"
+                        [legend]="barChartLegend"
+                        [chartType]="barChartType"
+                      >
+                      </canvas>
+                    </div>
+                  </div>
+                </ng-template>
+              </ngb-tab>
+            </ngb-tabset>
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <app-footer-admin-templates
+        *ngIf="infosUser.typeCompte == 'admin'"
+      ></app-footer-admin-templates>
+
+      <app-footer-user-templates
+        *ngIf="infosUser.typeCompte == 'user'"
+      ></app-footer-user-templates>
+
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div
+    class="modal fade"
+    id="logoutModal"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button
+            class="close"
+            type="button"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Select "Logout" below if you are ready to end your current session.
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">
+            Cancel
+          </button>
+          <button class="btn btn-primary">Logout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

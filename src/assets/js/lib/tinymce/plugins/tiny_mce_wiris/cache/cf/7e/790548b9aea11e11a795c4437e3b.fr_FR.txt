@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px d o n n é e espace p a r espace f parenthèse gauche x parenthèse droite égal à numérateur de la fraction moins 2 e puissance x au-dessus du dénominateur x plus 1 fin de la fraction fin de style"},"status":"ok"}

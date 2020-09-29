@@ -1,0 +1,1 @@
+{"result":{"text":"taille 20px lim avec taille 20px n taille 20px flèche vers la droite taille 20px plus taille 20px infini en dessous taille 20px U indice taille 20px n taille 20px inférieur ou égal à taille 20px 3"},"status":"ok"}

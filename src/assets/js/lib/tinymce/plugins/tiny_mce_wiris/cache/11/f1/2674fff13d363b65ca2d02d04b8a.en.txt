@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style limit as x rightwards arrow plus infinity of H left parenthesis x right parenthesis equals 3 end style"},"status":"ok"}

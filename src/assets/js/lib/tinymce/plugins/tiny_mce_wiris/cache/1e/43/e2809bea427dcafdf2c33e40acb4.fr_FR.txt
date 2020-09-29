@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace d e m i moins d r o i t e espace crochet droit B D parenthèse droite espace d apostrophe o r i g i n e espace B espace p a s s a n t espace p a r espace D espace p r i v é e espace d e espace B fin de style"},"status":"ok"}

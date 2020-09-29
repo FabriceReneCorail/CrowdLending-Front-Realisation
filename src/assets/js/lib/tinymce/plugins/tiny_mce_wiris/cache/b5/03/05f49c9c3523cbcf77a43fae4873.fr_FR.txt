@@ -1,0 +1,1 @@
+{"result":{"text":"S o i t espace calligraphique f espace l a espace f o n c t i o n espace d é f i n i e espace p a r espace deux points espace espace p o u r espace t o u t espace x appartient à simple nombres réels divisé par accolade ouverte moins 1 demi accolade fermée espace virgule"},"status":"ok"}

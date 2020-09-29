@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px limite avec x flèche vers la droite plus infini de numérateur de la fraction racine carrée de x moins 1 au-dessus du dénominateur x fin de la fraction espace espace e s t espace é g a l e espace espace deux points fin de style"},"status":"ok"}

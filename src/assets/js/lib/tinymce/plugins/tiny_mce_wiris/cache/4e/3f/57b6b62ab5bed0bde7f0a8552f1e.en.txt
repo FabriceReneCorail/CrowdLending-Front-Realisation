@@ -1,0 +1,1 @@
+{"result":{"text":"begin mathsize 20px style negative 3 open square brackets cos open parentheses straight pi over 4 close parentheses plus i sin open parentheses straight pi over 4 close parentheses close square brackets end style"},"status":"ok"}

@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px O n espace d é s i g n e espace p a r espace B espace e t espace C espace d e u x espace p o i n t s espace d u espace p l a n espace d o n t espace l e s espace a f f i x e s espace r e s p e c t i v e s fin de style"},"status":"ok"}

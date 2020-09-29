@@ -1,0 +1,18 @@
+{
+    "accueil_h1": "Lend Meへようこそ、最初の多文化クラウドファンディングサイト",
+
+    "user_profile_label_name": "あなたの名前",
+    "profil_user_firstname_label": "あなたの名",
+    "profil_user_mail_label": "あなたのメールアドレス",
+    "profil_user_sexe_label": "あなたのセックス",
+    "profil_user_mdp_label": "あなたのパスワード",
+    "profil_user_img_label": "プロフィール画像",
+    "profil_user_span_text_label": "編集",
+
+    "profil_user_button_btnbtnprimarybtnblock": "プロフィールを更新してください",
+    "profil_user_div_alertalertdanger": "編集",
+
+    "profil_user_div_alertalertdanger_strong1": "エラー！"
+
+
+}

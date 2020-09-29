@@ -1,0 +1,1 @@
+{"result":{"text":"S i u indice 0 appartient à crochet gauche 6 virgule plus infini crochet gauche"},"status":"ok"}

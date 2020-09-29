@@ -1,0 +1,1 @@
+{"result":{"text":"x indice 1 égal à numérateur de la fraction moins 20 moins racine carrée de 1600 au-dessus du dénominateur 2 fin de la fraction égal à moins 10\nx indice 2 égal à numérateur de la fraction moins 20 plus racine carrée de 1600 au-dessus du dénominateur 2 fin de la fraction égal à moins 10"},"status":"ok"}

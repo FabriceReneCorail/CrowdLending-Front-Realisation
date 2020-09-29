@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L a espace s o m m e espace d e espace d e u x espace s u i t e s espace c o n v e r g e n t e s espace e s t espace u n e espace s u i t e espace c o n v e r g e n t e. fin de style"},"status":"ok"}

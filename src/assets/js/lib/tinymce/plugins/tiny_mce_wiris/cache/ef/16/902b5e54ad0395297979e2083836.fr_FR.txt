@@ -1,0 +1,1 @@
+{"result":{"text":"trait vertical ouvert(e) z indice 1 trait vertical fermé(e) égal à trait vertical ouvert(e) z indice 2 trait vertical fermé(e) égal à 1"},"status":"ok"}

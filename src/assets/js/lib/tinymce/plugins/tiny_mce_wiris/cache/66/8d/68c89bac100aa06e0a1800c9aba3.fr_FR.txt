@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px limite avec x flèche vers la droite 2 puissance plus de numérateur de la fraction trait vertical ouvert(e) 2 x moins 2 trait vertical fermé(e) moins x au-dessus du dénominateur 2 x moins 4 fin de la fraction espace espace e s t espace é g a l e espace deux points fin de style"},"status":"ok"}

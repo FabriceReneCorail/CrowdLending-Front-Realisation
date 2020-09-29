@@ -1,0 +1,1 @@
+{"result":{"text":"L e espace c o n j u g é espace d e espace 7 i moins 4 espace e s t espace moins 4 moins 7 i espace c a r espace l a espace p a r t i e espace i m a g i n i a i r e espace e s t espace 7 i espace m a i s espace p a s espace moins 4."},"status":"ok"}

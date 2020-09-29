@@ -1,0 +1,1 @@
+{"result":{"text":"3 sur 4 début de racine carrée de racine carrée de 3 fin de racine espace t o t o o"},"status":"ok"}

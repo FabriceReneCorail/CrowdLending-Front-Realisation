@@ -1,0 +1,1 @@
+{"result":{"text":"limite avec x flèche vers la droite plus infini de g parenthèse gauche x parenthèse droite égal à moins infini"},"status":"ok"}

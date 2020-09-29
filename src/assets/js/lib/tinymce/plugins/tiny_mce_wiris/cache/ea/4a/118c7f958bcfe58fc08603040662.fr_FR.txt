@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px U n e espace s o l u t i o n espace d e espace l apostrophe é q u a t i o n espace e s t espace z indice 1 égal à cos ouvrir la parenthèse alpha plus simple pi fermer la parenthèse plus i sin ouvrir la parenthèse alpha plus simple pi fermer la parenthèse fin de style"},"status":"ok"}

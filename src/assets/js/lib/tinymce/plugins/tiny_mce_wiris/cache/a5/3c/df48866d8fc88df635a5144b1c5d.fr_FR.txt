@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 24px S i espace espace ouvrir la parenthèse U indice n V indice n fermer la parenthèse indice n appartient à simple nombres entiers naturels fin d'indice espace espace c o n v e r g e espace a l o r s espace deux points fin de style"},"status":"ok"}

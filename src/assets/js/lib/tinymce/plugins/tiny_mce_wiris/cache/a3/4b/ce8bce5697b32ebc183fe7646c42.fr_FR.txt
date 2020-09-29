@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L e espace p r o d u i t espace d e s espace s o l u t i o n s espace e s t espace z indice 1 z indice 2 égal à moins 1 fin de style"},"status":"ok"}

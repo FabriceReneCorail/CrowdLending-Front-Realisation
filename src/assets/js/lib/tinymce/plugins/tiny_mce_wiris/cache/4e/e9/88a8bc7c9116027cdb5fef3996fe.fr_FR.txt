@@ -1,0 +1,1 @@
+{"result":{"text":"début de style de taille 20px L e espace m i l i e u espace d e espace crochet ouvert M virgule N crochet fermé espace e s t espace s u r espace l apostrophe a x e espace d e s espace a b s c i s s e s. fin de style"},"status":"ok"}
